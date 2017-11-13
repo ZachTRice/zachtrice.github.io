@@ -1,0 +1,27 @@
+{
+    "maps": [
+        {
+            "title": "GPM Orbital Track",
+            "type": "classification",
+            "legend": {
+                "tooltips": [
+                    "Acquisition Time (UTC)"
+                ],
+                "colors": [
+                    "37f222ff"
+                ],
+                "type": "classification",
+                "id": "GPM_Orbit_Asc_0_legend",
+                "title": "GPM Orbital Track"
+            },
+            "entries": {
+                "colors": [
+                    "37f222ff"
+                ],
+                "type": "classification",
+                "title": "GPM Orbital Track"
+            }
+        }
+    ],
+    "id": "GPM_Orbit_Asc"
+}

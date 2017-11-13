@@ -1,0 +1,27 @@
+{
+    "maps": [
+        {
+            "title": "SMAP Orbital Track",
+            "type": "classification",
+            "legend": {
+                "tooltips": [
+                    "Acquisition Time (UTC)"
+                ],
+                "colors": [
+                    "40f4d0ff"
+                ],
+                "type": "classification",
+                "id": "SMAP_Orb_Dsc_0_legend",
+                "title": "SMAP Orbital Track"
+            },
+            "entries": {
+                "colors": [
+                    "40f4d0ff"
+                ],
+                "type": "classification",
+                "title": "SMAP Orbital Track"
+            }
+        }
+    ],
+    "id": "SMAP_Orb_Dsc"
+}

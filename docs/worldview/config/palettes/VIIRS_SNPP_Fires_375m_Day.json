@@ -1,0 +1,27 @@
+{
+    "maps": [
+        {
+            "title": "Fires Day",
+            "type": "classification",
+            "legend": {
+                "tooltips": [
+                    "Fire"
+                ],
+                "colors": [
+                    "ff0000ff"
+                ],
+                "type": "classification",
+                "id": "VIIRS_SNPP_Fires_375m_Day_0_legend",
+                "title": "Fires Day"
+            },
+            "entries": {
+                "colors": [
+                    "ff0000ff"
+                ],
+                "type": "classification",
+                "title": "Fires Day"
+            }
+        }
+    ],
+    "id": "VIIRS_SNPP_Fires_375m_Day"
+}

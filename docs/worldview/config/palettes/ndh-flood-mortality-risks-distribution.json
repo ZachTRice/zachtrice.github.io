@@ -1,0 +1,33 @@
+{
+    "maps": [
+        {
+            "title": "Flood Hazard Mortality Risks",
+            "type": "classification",
+            "legend": {
+                "tooltips": [
+                    "1st - 4th",
+                    "5th - 7th",
+                    "8th - 10th"
+                ],
+                "colors": [
+                    "fee8c8ff",
+                    "fdbb84ff",
+                    "e34a33ff"
+                ],
+                "type": "classification",
+                "id": "ndh-flood-mortality-risks-distribution_0_legend",
+                "title": "Flood Hazard Mortality Risks"
+            },
+            "entries": {
+                "colors": [
+                    "fee8c8ff",
+                    "fdbb84ff",
+                    "e34a33ff"
+                ],
+                "type": "classification",
+                "title": "Flood Hazard Mortality Risks"
+            }
+        }
+    ],
+    "id": "ndh-flood-mortality-risks-distribution"
+}

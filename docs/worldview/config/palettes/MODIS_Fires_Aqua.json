@@ -1,0 +1,27 @@
+{
+    "maps": [
+        {
+            "title": "Fires Aqua",
+            "type": "classification",
+            "legend": {
+                "tooltips": [
+                    "Fire"
+                ],
+                "colors": [
+                    "ff0000ff"
+                ],
+                "type": "classification",
+                "id": "MODIS_Fires_Aqua_0_legend",
+                "title": "Fires Aqua"
+            },
+            "entries": {
+                "colors": [
+                    "ff0000ff"
+                ],
+                "type": "classification",
+                "title": "Fires Aqua"
+            }
+        }
+    ],
+    "id": "MODIS_Fires_Aqua"
+}

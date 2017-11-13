@@ -1,0 +1,36 @@
+{
+    "maps": [
+        {
+            "title": "Cyclone Hazard Frequency and Distribution",
+            "type": "classification",
+            "legend": {
+                "tooltips": [
+                    "1 - 5",
+                    "6 - 15",
+                    "16 - 30",
+                    "31 - 65"
+                ],
+                "colors": [
+                    "ffffd4ff",
+                    "fed98eff",
+                    "fe9929ff",
+                    "cc4c02ff"
+                ],
+                "type": "classification",
+                "id": "ndh-cyclone-hazard-frequency-distribution_0_legend",
+                "title": "Cyclone Hazard Frequency and Distribution"
+            },
+            "entries": {
+                "colors": [
+                    "ffffd4ff",
+                    "fed98eff",
+                    "fe9929ff",
+                    "cc4c02ff"
+                ],
+                "type": "classification",
+                "title": "Cyclone Hazard Frequency and Distribution"
+            }
+        }
+    ],
+    "id": "ndh-cyclone-hazard-frequency-distribution"
+}

@@ -1,0 +1,92 @@
+{
+    "maps": [
+        {
+            "title": "Snow Cover",
+            "type": "continuous",
+            "legend": {
+                "tooltips": [
+                    "1 \u2013 20",
+                    "20 \u2013 30",
+                    "30 \u2013 40",
+                    "40 \u2013 50",
+                    "50 \u2013 60",
+                    "60 \u2013 70",
+                    "70 \u2013 80",
+                    "80 \u2013 90",
+                    "90 \u2013 100"
+                ],
+                "title": "Snow Cover",
+                "colors": [
+                    "1e00eaff",
+                    "036bf4ff",
+                    "00ddf1ff",
+                    "03f936ff",
+                    "51c900ff",
+                    "d6e000ff",
+                    "fbcc00ff",
+                    "ff6300ff",
+                    "cf0500ff"
+                ],
+                "maxLabel": "100",
+                "minLabel": "1",
+                "units": "%",
+                "type": "continuous",
+                "id": "MODIS_Terra_Snow_Cover_0_legend"
+            },
+            "entries": {
+                "values": [
+                    [
+                        1.0,
+                        20.0
+                    ],
+                    [
+                        20.0,
+                        30.0
+                    ],
+                    [
+                        30.0,
+                        40.0
+                    ],
+                    [
+                        40.0,
+                        50.0
+                    ],
+                    [
+                        50.0,
+                        60.0
+                    ],
+                    [
+                        60.0,
+                        70.0
+                    ],
+                    [
+                        70.0,
+                        80.0
+                    ],
+                    [
+                        80.0,
+                        90.0
+                    ],
+                    [
+                        90.0,
+                        100.0
+                    ]
+                ],
+                "colors": [
+                    "1e00eaff",
+                    "036bf4ff",
+                    "00ddf1ff",
+                    "03f936ff",
+                    "51c900ff",
+                    "d6e000ff",
+                    "fbcc00ff",
+                    "ff6300ff",
+                    "cf0500ff"
+                ],
+                "type": "continuous",
+                "title": "Snow Cover"
+            }
+        }
+    ],
+    "id": "MODIS_Terra_Snow_Cover"
+}

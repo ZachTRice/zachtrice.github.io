@@ -1,0 +1,27 @@
+{
+    "maps": [
+        {
+            "title": "GCOM-W1 Orbital Track",
+            "type": "classification",
+            "legend": {
+                "tooltips": [
+                    "Acquisition Time (UTC)"
+                ],
+                "colors": [
+                    "6a3d9aff"
+                ],
+                "type": "classification",
+                "id": "GCOM_W1_Orbit_Asc_0_legend",
+                "title": "GCOM-W1 Orbital Track"
+            },
+            "entries": {
+                "colors": [
+                    "6a3d9aff"
+                ],
+                "type": "classification",
+                "title": "GCOM-W1 Orbital Track"
+            }
+        }
+    ],
+    "id": "GCOM_W1_Orbit_Asc"
+}

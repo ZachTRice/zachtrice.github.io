@@ -1,0 +1,27 @@
+{
+    "maps": [
+        {
+            "title": "OCO-2 Orbital Track",
+            "type": "classification",
+            "legend": {
+                "tooltips": [
+                    "Acquisition Time (UTC)"
+                ],
+                "colors": [
+                    "7e97bdff"
+                ],
+                "type": "classification",
+                "id": "OCO_2_Orbit_Dsc_0_legend",
+                "title": "OCO-2 Orbital Track"
+            },
+            "entries": {
+                "colors": [
+                    "7e97bdff"
+                ],
+                "type": "classification",
+                "title": "OCO-2 Orbital Track"
+            }
+        }
+    ],
+    "id": "OCO_2_Orbit_Dsc"
+}

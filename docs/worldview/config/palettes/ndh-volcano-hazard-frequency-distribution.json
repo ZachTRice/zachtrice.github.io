@@ -1,0 +1,36 @@
+{
+    "maps": [
+        {
+            "title": "Volcano Hazard Frequency and Distribution",
+            "type": "classification",
+            "legend": {
+                "tooltips": [
+                    "1 - 10",
+                    "11 - 30",
+                    "31 - 60",
+                    "61 - 130"
+                ],
+                "colors": [
+                    "ffffb2ff",
+                    "fecc5cff",
+                    "fd8d3cff",
+                    "e31a1cff"
+                ],
+                "type": "classification",
+                "id": "ndh-volcano-hazard-frequency-distribution_0_legend",
+                "title": "Volcano Hazard Frequency and Distribution"
+            },
+            "entries": {
+                "colors": [
+                    "ffffb2ff",
+                    "fecc5cff",
+                    "fd8d3cff",
+                    "e31a1cff"
+                ],
+                "type": "classification",
+                "title": "Volcano Hazard Frequency and Distribution"
+            }
+        }
+    ],
+    "id": "ndh-volcano-hazard-frequency-distribution"
+}

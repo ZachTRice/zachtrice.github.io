@@ -1,0 +1,27 @@
+{
+    "maps": [
+        {
+            "title": "GOSAT Orbital Track",
+            "type": "classification",
+            "legend": {
+                "tooltips": [
+                    "Acquisition Time (UTC)"
+                ],
+                "colors": [
+                    "ffa07aff"
+                ],
+                "type": "classification",
+                "id": "GOSAT_Orbit_Dsc_0_legend",
+                "title": "GOSAT Orbital Track"
+            },
+            "entries": {
+                "colors": [
+                    "ffa07aff"
+                ],
+                "type": "classification",
+                "title": "GOSAT Orbital Track"
+            }
+        }
+    ],
+    "id": "GOSAT_Orbit_Dsc"
+}

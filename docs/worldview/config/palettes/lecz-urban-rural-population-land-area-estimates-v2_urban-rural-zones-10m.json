@@ -1,0 +1,30 @@
+{
+    "maps": [
+        {
+            "title": "Urban Rural Extents in the 10m Low Elevation Zone",
+            "type": "classification",
+            "legend": {
+                "tooltips": [
+                    "Rural",
+                    "Urban"
+                ],
+                "colors": [
+                    "ff9999ff",
+                    "990000ff"
+                ],
+                "type": "classification",
+                "id": "lecz-urban-rural-population-land-area-estimates-v2_urban-rural-zones-10m_0_legend",
+                "title": "Urban Rural Extents in the 10m Low Elevation Zone"
+            },
+            "entries": {
+                "colors": [
+                    "ff9999ff",
+                    "990000ff"
+                ],
+                "type": "classification",
+                "title": "Urban Rural Extents in the 10m Low Elevation Zone"
+            }
+        }
+    ],
+    "id": "lecz-urban-rural-population-land-area-estimates-v2_urban-rural-zones-10m"
+}

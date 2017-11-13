@@ -1,0 +1,36 @@
+{
+    "maps": [
+        {
+            "title": "Freeze/Thaw",
+            "type": "classification",
+            "legend": {
+                "tooltips": [
+                    "Frozen",
+                    "Thawed",
+                    "Transitional",
+                    "Inv Transitional"
+                ],
+                "colors": [
+                    "0000ffff",
+                    "ff0000ff",
+                    "a5a500ff",
+                    "00ff00ff"
+                ],
+                "type": "classification",
+                "id": "MEaSUREs_Daily_Landscape_Freeze_Thaw_SSMI_0_legend",
+                "title": "Freeze/Thaw"
+            },
+            "entries": {
+                "colors": [
+                    "0000ffff",
+                    "ff0000ff",
+                    "a5a500ff",
+                    "00ff00ff"
+                ],
+                "type": "classification",
+                "title": "Freeze/Thaw"
+            }
+        }
+    ],
+    "id": "MEaSUREs_Daily_Landscape_Freeze_Thaw_SSMI"
+}

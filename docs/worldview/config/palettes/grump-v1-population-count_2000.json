@@ -1,0 +1,42 @@
+{
+    "maps": [
+        {
+            "title": "Population Density",
+            "type": "classification",
+            "legend": {
+                "tooltips": [
+                    "1 - 5 persons/sq km",
+                    "5.1 - 25 persons/sq km",
+                    "25.1 - 50 persons/sq km",
+                    "50.1 - 100 persons/sq km",
+                    "100.1 - 250 persons/sq km",
+                    "250+ persons/sq km"
+                ],
+                "colors": [
+                    "feff76ff",
+                    "fcdf50ff",
+                    "f7bc2bff",
+                    "d68606ff",
+                    "9e4400ff",
+                    "6b0400ff"
+                ],
+                "type": "classification",
+                "id": "grump-v1-population-count_2000_0_legend",
+                "title": "Population Density"
+            },
+            "entries": {
+                "colors": [
+                    "feff76ff",
+                    "fcdf50ff",
+                    "f7bc2bff",
+                    "d68606ff",
+                    "9e4400ff",
+                    "6b0400ff"
+                ],
+                "type": "classification",
+                "title": "Population Density"
+            }
+        }
+    ],
+    "id": "grump-v1-population-count_2000"
+}

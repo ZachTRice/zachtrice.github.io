@@ -1,0 +1,27 @@
+{
+    "maps": [
+        {
+            "title": "Terra Orbital Track",
+            "type": "classification",
+            "legend": {
+                "tooltips": [
+                    "Acquisition Time (UTC)"
+                ],
+                "colors": [
+                    "f28722ff"
+                ],
+                "type": "classification",
+                "id": "Terra_Orbit_Dsc_0_legend",
+                "title": "Terra Orbital Track"
+            },
+            "entries": {
+                "colors": [
+                    "f28722ff"
+                ],
+                "type": "classification",
+                "title": "Terra Orbital Track"
+            }
+        }
+    ],
+    "id": "Terra_Orbit_Dsc"
+}

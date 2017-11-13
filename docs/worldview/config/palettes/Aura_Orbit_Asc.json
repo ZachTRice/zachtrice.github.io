@@ -1,0 +1,27 @@
+{
+    "maps": [
+        {
+            "title": "Aura Orbital Track",
+            "type": "classification",
+            "legend": {
+                "tooltips": [
+                    "Acquisition Time (UTC)"
+                ],
+                "colors": [
+                    "c058f0ff"
+                ],
+                "type": "classification",
+                "id": "Aura_Orbit_Asc_0_legend",
+                "title": "Aura Orbital Track"
+            },
+            "entries": {
+                "colors": [
+                    "c058f0ff"
+                ],
+                "type": "classification",
+                "title": "Aura Orbital Track"
+            }
+        }
+    ],
+    "id": "Aura_Orbit_Asc"
+}

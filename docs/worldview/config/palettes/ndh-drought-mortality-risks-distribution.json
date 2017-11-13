@@ -1,0 +1,33 @@
+{
+    "maps": [
+        {
+            "title": "Drought Hazard Mortality Risks",
+            "type": "classification",
+            "legend": {
+                "tooltips": [
+                    "1st - 4th",
+                    "5th - 7th",
+                    "8th - 10th"
+                ],
+                "colors": [
+                    "fee8c8ff",
+                    "fdbb84ff",
+                    "e34a33ff"
+                ],
+                "type": "classification",
+                "id": "ndh-drought-mortality-risks-distribution_0_legend",
+                "title": "Drought Hazard Mortality Risks"
+            },
+            "entries": {
+                "colors": [
+                    "fee8c8ff",
+                    "fdbb84ff",
+                    "e34a33ff"
+                ],
+                "type": "classification",
+                "title": "Drought Hazard Mortality Risks"
+            }
+        }
+    ],
+    "id": "ndh-drought-mortality-risks-distribution"
+}

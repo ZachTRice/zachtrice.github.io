@@ -1,0 +1,27 @@
+{
+    "maps": [
+        {
+            "title": "Fires All",
+            "type": "classification",
+            "legend": {
+                "tooltips": [
+                    "Fire"
+                ],
+                "colors": [
+                    "ff0000ff"
+                ],
+                "type": "classification",
+                "id": "MODIS_Fires_All_0_legend",
+                "title": "Fires All"
+            },
+            "entries": {
+                "colors": [
+                    "ff0000ff"
+                ],
+                "type": "classification",
+                "title": "Fires All"
+            }
+        }
+    ],
+    "id": "MODIS_Fires_All"
+}

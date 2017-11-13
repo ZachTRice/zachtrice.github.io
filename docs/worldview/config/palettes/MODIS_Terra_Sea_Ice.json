@@ -1,0 +1,27 @@
+{
+    "maps": [
+        {
+            "title": "Classifications",
+            "type": "classification",
+            "legend": {
+                "tooltips": [
+                    "Sea Ice"
+                ],
+                "colors": [
+                    "ff6464ff"
+                ],
+                "type": "classification",
+                "id": "MODIS_Terra_Sea_Ice_0_legend",
+                "title": "Classifications"
+            },
+            "entries": {
+                "colors": [
+                    "ff6464ff"
+                ],
+                "type": "classification",
+                "title": "Classifications"
+            }
+        }
+    ],
+    "id": "MODIS_Terra_Sea_Ice"
+}
