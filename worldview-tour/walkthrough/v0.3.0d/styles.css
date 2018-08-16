@@ -201,6 +201,46 @@
   background-image:  url("../../designs/v0.3.0d/wv-tour-closed001/wv-tourExtra-Large.png");
  }
 
+ #wvtour002-closed {
+  background-image:  url("../../designs/v0.3.0d/wv-tour-closed002/wv-tour-startedExtra-Large.png");
+ }
+
+ #wvtour003-closed {
+  background-image:  url("../../designs/v0.3.0d/wv-tour-closed003/wv-tour-startedExtra-Large.png");
+ }
+
+ #wvtour004-closed {
+  background-image:  url("../../designs/v0.3.0d/wv-tour-closed004/wv-tour-startedExtra-Large.png");
+ }
+
+ #wvtour005-closed {
+  background-image:  url("../../designs/v0.3.0d/wv-tour-closed005/wv-tour-startedExtra-Large.png");
+ }
+
+ #wvtour006-closed {
+  background-image:  url("../../designs/v0.3.0d/wv-tour-closed006/wv-tour-startedExtra-Large.png");
+ }
+
+ #wvtour007-closed {
+  background-image:  url("../../designs/v0.3.0d/wv-tour-closed007/wv-tour-startedExtra-Large.png");
+ }
+
+ #wvtour008-closed {
+  background-image:  url("../../designs/v0.3.0d/wv-tour-closed008/wv-tour-startedExtra-Large.png");
+ }
+
+ #wvtour009-closed {
+  background-image:  url("../../designs/v0.3.0d/wv-tour-closed009/wv-tour-startedExtra-Large.png");
+ }
+
+ #wvtour010-closed {
+  background-image:  url("../../designs/v0.3.0d/wv-tour-closed010/wv-tour-startedExtra-Large.png");
+ }
+
+ #wvtour011-closed {
+  background-image:  url("../../designs/v0.3.0d/wv-tour-closed011/wv-tour-startedExtra-Large.png");
+ }
+
  #wvtour012-closed {
   background-image:  url("../../designs/v0.3.0d/wv-tour-closed012/wv-tour-startedExtra-Large.png");
  }
@@ -365,4 +405,21 @@
   height: 32px;
   top: 559px;
   left: 665px;
+}
+
+/* General Elements */
+.info-button {
+  position: absolute;
+  width: 55px;
+  height: 42px;
+  top: 10px;
+  left: 1215px;
+}
+
+.wv-tour-startup-close {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 88px;
+  left: 870px;
 }
