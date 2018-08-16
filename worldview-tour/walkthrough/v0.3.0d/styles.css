@@ -1,0 +1,368 @@
+.wv-tour {
+  position: relative;
+  width: 1280px;
+  height: 949px;
+}
+
+#wvtour001-wildfires {
+ background-image:  url("../../designs/v0.3.0d/wildfires/wv-tour001/wv-tourExtra-Large.png");
+}
+
+#wvtour002-wildfires {
+ background-image:  url("../../designs/v0.3.0d/wildfires/wv-tour002/wv-tour-startedExtra-Large.png");
+}
+
+#wvtour003-wildfires {
+ background-image:  url("../../designs/v0.3.0d/wildfires/wv-tour003/wv-tour-startedExtra-Large.png");
+}
+
+#wvtour004-wildfires {
+ background-image:  url("../../designs/v0.3.0d/wildfires/wv-tour004/wv-tour-startedExtra-Large.png");
+}
+
+#wvtour005-wildfires {
+ background-image:  url("../../designs/v0.3.0d/wildfires/wv-tour005/wv-tour-startedExtra-Large.png");
+}
+
+#wvtour006-wildfires {
+ background-image:  url("../../designs/v0.3.0d/wildfires/wv-tour006/wv-tour-startedExtra-Large.png");
+}
+
+#wvtour007-wildfires {
+ background-image:  url("../../designs/v0.3.0d/wildfires/wv-tour007/wv-tour-startedExtra-Large.png");
+}
+
+#wvtour008-wildfires {
+ background-image:  url("../../designs/v0.3.0d/wildfires/wv-tour008/wv-tour-startedExtra-Large.png");
+}
+
+#wvtour009-wildfires {
+ background-image:  url("../../designs/v0.3.0d/wildfires/wv-tour009/wv-tour-startedExtra-Large.png");
+}
+
+#wvtour010-wildfires {
+ background-image:  url("../../designs/v0.3.0d/wildfires/wv-tour010/wv-tour-startedExtra-Large.png");
+}
+
+#wvtour011-wildfires {
+ background-image:  url("../../designs/v0.3.0d/wildfires/wv-tour011/wv-tour-startedExtra-Large.png");
+}
+
+#wvtour012-wildfires {
+ background-image:  url("../../designs/v0.3.0d/wildfires/wv-tour012/wv-tour-startedExtra-Large.png");
+}
+
+#wvtour001-icebergs {
+  background-image:  url("../../designs/v0.3.0d/icebergs/wv-tour001/wv-tourExtra-Large.png");
+ }
+
+ #wvtour002-icebergs {
+  background-image:  url("../../designs/v0.3.0d/icebergs/wv-tour002/wv-tour-startedExtra-Large.png");
+ }
+
+ #wvtour003-icebergs {
+  background-image:  url("../../designs/v0.3.0d/icebergs/wv-tour003/wv-tour-startedExtra-Large.png");
+ }
+
+ #wvtour004-icebergs {
+  background-image:  url("../../designs/v0.3.0d/icebergs/wv-tour004/wv-tour-startedExtra-Large.png");
+ }
+
+ #wvtour005-icebergs {
+  background-image:  url("../../designs/v0.3.0d/icebergs/wv-tour005/wv-tour-startedExtra-Large.png");
+ }
+
+ #wvtour006-icebergs {
+  background-image:  url("../../designs/v0.3.0d/icebergs/wv-tour006/wv-tour-startedExtra-Large.png");
+ }
+
+ #wvtour007-icebergs {
+  background-image:  url("../../designs/v0.3.0d/icebergs/wv-tour007/wv-tour-startedExtra-Large.png");
+ }
+
+ #wvtour008-icebergs {
+  background-image:  url("../../designs/v0.3.0d/icebergs/wv-tour008/wv-tour-startedExtra-Large.png");
+ }
+
+ #wvtour009-icebergs {
+  background-image:  url("../../designs/v0.3.0d/icebergs/wv-tour009/wv-tour-startedExtra-Large.png");
+ }
+
+ #wvtour010-icebergs {
+  background-image:  url("../../designs/v0.3.0d/icebergs/wv-tour010/wv-tour-startedExtra-Large.png");
+ }
+
+ #wvtour011-icebergs {
+  background-image:  url("../../designs/v0.3.0d/icebergs/wv-tour011/wv-tour-startedExtra-Large.png");
+ }
+
+ #wvtour012-icebergs {
+  background-image:  url("../../designs/v0.3.0d/icebergs/wv-tour012/wv-tour-startedExtra-Large.png");
+ }
+
+ #wvtour001-hurricanes {
+  background-image:  url("../../designs/v0.3.0d/hurricanes/wv-tour001/wv-tourExtra-Large.png");
+ }
+
+ #wvtour002-hurricanes {
+  background-image:  url("../../designs/v0.3.0d/hurricanes/wv-tour002/wv-tour-startedExtra-Large.png");
+ }
+
+ #wvtour003-hurricanes {
+  background-image:  url("../../designs/v0.3.0d/hurricanes/wv-tour003/wv-tour-startedExtra-Large.png");
+ }
+
+ #wvtour004-hurricanes {
+  background-image:  url("../../designs/v0.3.0d/hurricanes/wv-tour004/wv-tour-startedExtra-Large.png");
+ }
+
+ #wvtour005-hurricanes {
+  background-image:  url("../../designs/v0.3.0d/hurricanes/wv-tour005/wv-tour-startedExtra-Large.png");
+ }
+
+ #wvtour006-hurricanes {
+  background-image:  url("../../designs/v0.3.0d/hurricanes/wv-tour006/wv-tour-startedExtra-Large.png");
+ }
+
+ #wvtour007-hurricanes {
+  background-image:  url("../../designs/v0.3.0d/hurricanes/wv-tour007/wv-tour-startedExtra-Large.png");
+ }
+
+ #wvtour008-hurricanes {
+  background-image:  url("../../designs/v0.3.0d/hurricanes/wv-tour008/wv-tour-startedExtra-Large.png");
+ }
+
+ #wvtour009-hurricanes {
+  background-image:  url("../../designs/v0.3.0d/hurricanes/wv-tour009/wv-tour-startedExtra-Large.png");
+ }
+
+ #wvtour010-hurricanes {
+  background-image:  url("../../designs/v0.3.0d/hurricanes/wv-tour010/wv-tour-startedExtra-Large.png");
+ }
+
+ #wvtour011-hurricanes {
+  background-image:  url("../../designs/v0.3.0d/hurricanes/wv-tour011/wv-tour-startedExtra-Large.png");
+ }
+
+ #wvtour012-hurricanes {
+  background-image:  url("../../designs/v0.3.0d/hurricanes/wv-tour012/wv-tour-startedExtra-Large.png");
+ }
+
+ #wvtour001-dust_storms {
+  background-image:  url("../../designs/v0.3.0d/dust_storms/wv-tour001/wv-tourExtra-Large.png");
+ }
+
+ #wvtour002-dust_storms {
+  background-image:  url("../../designs/v0.3.0d/dust_storms/wv-tour002/wv-tour-startedExtra-Large.png");
+ }
+
+ #wvtour003-dust_storms {
+  background-image:  url("../../designs/v0.3.0d/dust_storms/wv-tour003/wv-tour-startedExtra-Large.png");
+ }
+
+ #wvtour004-dust_storms {
+  background-image:  url("../../designs/v0.3.0d/dust_storms/wv-tour004/wv-tour-startedExtra-Large.png");
+ }
+
+ #wvtour005-dust_storms {
+  background-image:  url("../../designs/v0.3.0d/dust_storms/wv-tour005/wv-tour-startedExtra-Large.png");
+ }
+
+ #wvtour006-dust_storms {
+  background-image:  url("../../designs/v0.3.0d/dust_storms/wv-tour006/wv-tour-startedExtra-Large.png");
+ }
+
+ #wvtour007-dust_storms {
+  background-image:  url("../../designs/v0.3.0d/dust_storms/wv-tour007/wv-tour-startedExtra-Large.png");
+ }
+
+ #wvtour008-dust_storms {
+  background-image:  url("../../designs/v0.3.0d/dust_storms/wv-tour008/wv-tour-startedExtra-Large.png");
+ }
+
+ #wvtour009-dust_storms {
+  background-image:  url("../../designs/v0.3.0d/dust_storms/wv-tour009/wv-tour-startedExtra-Large.png");
+ }
+
+ #wvtour010-dust_storms {
+  background-image:  url("../../designs/v0.3.0d/dust_storms/wv-tour010/wv-tour-startedExtra-Large.png");
+ }
+
+ #wvtour011-dust_storms {
+  background-image:  url("../../designs/v0.3.0d/dust_storms/wv-tour011/wv-tour-startedExtra-Large.png");
+ }
+
+ #wvtour012-dust_storms {
+  background-image:  url("../../designs/v0.3.0d/dust_storms/wv-tour012/wv-tour-startedExtra-Large.png");
+ }
+
+ /* TOUR CLOSED */
+ #wvtour001-closed {
+  background-image:  url("../../designs/v0.3.0d/wv-tour-closed001/wv-tourExtra-Large.png");
+ }
+
+ #wvtour012-closed {
+  background-image:  url("../../designs/v0.3.0d/wv-tour-closed012/wv-tour-startedExtra-Large.png");
+ }
+
+/* ACTIONS: Tour Startup */
+ .wildfires-start-explore-event-wildfires {
+  position: absolute;
+  top: 550px;
+  left: 717px;
+  width: 178px;
+  height: 32px;
+}
+
+.wildfires-start-open-icebergs {
+  position: absolute;
+  top: 593px;
+  left: 355px;
+  width: 540px;
+  height: 40px;
+}
+
+.wildfires-start-open-hurricanes {
+  position: absolute;
+  top: 644px;
+  left: 355px;
+  width: 540px;
+  height: 40px;
+}
+
+.wildfires-start-open-dust_storms {
+  position: absolute;
+  top: 695px;
+  left: 355px;
+  width: 540px;
+  height: 40px;
+}
+
+.icebergs-start-explore-event-icebergs {
+  position: absolute;
+  top: 604px;
+  left: 717px;
+  width: 178px;
+  height: 32px;
+}
+
+.icebergs-start-open-wildfires {
+  position: absolute;
+  top: 384px;
+  left: 355px;
+  width: 540px;
+  height: 40px;
+}
+
+.icebergs-start-open-hurricanes {
+  position: absolute;
+  top: 647px;
+  left: 355px;
+  width: 540px;
+  height: 40px;
+}
+
+.icebergs-start-open-dust_storms {
+  position: absolute;
+  top: 698px;
+  left: 355px;
+  width: 540px;
+  height: 40px;
+}
+
+.hurricanes-start-explore-event-hurricanes {
+  position: absolute;
+  top: 654px;
+  left: 717px;
+  width: 178px;
+  height: 32px;
+}
+
+.hurricanes-start-open-wildfires {
+  position: absolute;
+  top: 384px;
+  left: 355px;
+  width: 540px;
+  height: 40px;
+}
+
+.hurricanes-start-open-icebergs {
+  position: absolute;
+  top: 435px;
+  left: 355px;
+  width: 540px;
+  height: 40px;
+}
+
+.hurricanes-start-open-dust_storms {
+  position: absolute;
+  top: 698px;
+  left: 355px;
+  width: 540px;
+  height: 40px;
+}
+
+.dust_storms-start-explore-event-dust_storms {
+  position: absolute;
+  top: 706px;
+  left: 717px;
+  width: 178px;
+  height: 32px;
+}
+
+.dust_storms-start-open-wildfires {
+  position: absolute;
+  top: 384px;
+  left: 355px;
+  width: 540px;
+  height: 40px;
+}
+
+.dust_storms-start-open-icebergs {
+  position: absolute;
+  top: 435px;
+  left: 355px;
+  width: 540px;
+  height: 40px;
+}
+
+.dust_storms-start-open-hurricanes {
+  position: absolute;
+  top: 486px;
+  left: 355px;
+  width: 540px;
+  height: 40px;
+}
+
+/* ACTIONS: Tour Started */
+.wv-tour-started .wv-tour-back {
+  position: absolute;
+  width: 42px;
+  height: 42px;
+  top: 715px;
+  left: 1050px;
+}
+
+.wv-tour-started .wv-tour-forward {
+  position: absolute;
+  width: 42px;
+  height: 42px;
+  top: 715px;
+  left: 1221px;
+}
+
+.wv-tour-finished-explore-events {
+  position: absolute;
+  width: 155px;
+  height: 32px;
+  top: 559px;
+  left: 490px;
+}
+
+.wv-tour-finished-exit-tutorial {
+  position: absolute;
+  width: 155px;
+  height: 32px;
+  top: 559px;
+  left: 665px;
+}
