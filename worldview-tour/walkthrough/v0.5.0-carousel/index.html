@@ -1,0 +1,288 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Worldview Tour Design v0.5.0 - Carousel</title>
+  <meta name="description" content="Worldview Tour Design">
+  <meta name="author" content="Worldview Tour">
+
+  <link rel="stylesheet" href="styles.css?v=1.0">
+  <style>
+    .wv-tour-close {
+      position: absolute;
+      width: 24px;
+      height: 24px;
+      top: 411px;
+      left: 1256px;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="wvtour001" class="wv-tour">
+    <a class='wv-tour-startup-close' href="#wvtour001-closed"></a>
+    <a class="start-2018-bc-wildfires" href="#wvtour002-wildfires"></a>
+    <a class="start-2017-snow-event" href="#wvtour002-icebergs"></a>
+    <a class="start-2018-mount-sinabung" href="#wvtour002-hurricanes"></a>
+    <a class="start-2018-dust-storm" href="#wvtour002-dust_storms"></a>
+    <a class="start-2017-hurricane-maria" href="#wvtour002-hurricanes"></a>
+  </div>
+  <div id="wvtour002-wildfires" class="wv-tour wv-tour-started">
+    <a class='wv-tour-close' href="#wvtour002-closed"></a>
+    <a class='wv-tour-forward' href="#wvtour003-wildfires"></a>
+  </div>
+  <div id="wvtour003-wildfires" class="wv-tour wv-tour-started">
+    <a class='wv-tour-close' href="#wvtour003-closed"></a>
+    <a class='wv-tour-back' href="#wvtour002-wildfires"></a>
+    <a class='wv-tour-forward' href="#wvtour004-wildfires"></a>
+  </div>
+  <div id="wvtour004-wildfires" class="wv-tour wv-tour-started">
+    <a class='wv-tour-close' href="#wvtour004-closed"></a>
+    <a class='wv-tour-back' href="#wvtour003-wildfires"></a>
+    <a class='wv-tour-forward' href="#wvtour005-wildfires"></a>
+  </div>
+  <div id="wvtour005-wildfires" class="wv-tour wv-tour-started">
+    <a class='wv-tour-close' href="#wvtour005-closed"></a>
+    <a class='wv-tour-back' href="#wvtour004-wildfires"></a>
+    <a class='wv-tour-forward' href="#wvtour006-wildfires"></a>
+  </div>
+  <div id="wvtour006-wildfires" class="wv-tour wv-tour-started">
+    <a class='wv-tour-close' href="#wvtour006-closed"></a>
+    <a class='wv-tour-back' href="#wvtour005-wildfires"></a>
+    <a class='wv-tour-forward' href="#wvtour007-wildfires"></a>
+  </div>
+  <div id="wvtour007-wildfires" class="wv-tour wv-tour-started">
+    <a class='wv-tour-close' href="#wvtour007-closed"></a>
+    <a class='wv-tour-back' href="#wvtour006-wildfires"></a>
+    <a class='wv-tour-forward' href="#wvtour008-wildfires"></a>
+  </div>
+  <div id="wvtour008-wildfires" class="wv-tour wv-tour-started">
+    <a class='wv-tour-close' href="#wvtour008-closed"></a>
+    <a class='wv-tour-back' href="#wvtour007-wildfires"></a>
+    <a class='wv-tour-forward' href="#wvtour009-wildfires"></a>
+  </div>
+  <div id="wvtour009-wildfires" class="wv-tour wv-tour-started">
+    <a class='wv-tour-close' href="#wvtour009-closed"></a>
+    <a class='wv-tour-back' href="#wvtour008-wildfires"></a>
+    <a class='wv-tour-forward' href="#wvtour010-wildfires"></a>
+  </div>
+  <div id="wvtour010-wildfires" class="wv-tour wv-tour-started">
+    <a class='wv-tour-close' href="#wvtour010-closed"></a>
+    <a class='wv-tour-back' href="#wvtour009-wildfires"></a>
+    <a class='wv-tour-forward' href="#wvtour011-wildfires"></a>
+  </div>
+  <div id="wvtour011-wildfires" class="wv-tour wv-tour-started">
+    <a class='wv-tour-close' href="#wvtour011-closed"></a>
+    <a class='wv-tour-back' href="#wvtour010-wildfires"></a>
+    <a class='wv-tour-forward' href="#wvtour012-wildfires"></a>
+  </div>
+  <div id="wvtour012-wildfires" class="wv-tour wv-tour-finished">
+    <a class='wv-tour-finished-explore-events' href="#wvtour001-wildfires"></a>
+    <a class='wv-tour-finished-exit-tutorial' href="#wvtour012-closed"></a>
+  </div>
+
+  <div id="wvtour002-icebergs" class="wv-tour wv-tour-started">
+    <a class='wv-tour-close' href="#wvtour002-closed"></a>
+    <a class='wv-tour-forward' href="#wvtour003-icebergs"></a>
+  </div>
+  <div id="wvtour003-icebergs" class="wv-tour wv-tour-started">
+    <a class='wv-tour-close' href="#wvtour003-closed"></a>
+    <a class='wv-tour-back' href="#wvtour002-icebergs"></a>
+    <a class='wv-tour-forward' href="#wvtour004-icebergs"></a>
+  </div>
+  <div id="wvtour004-icebergs" class="wv-tour wv-tour-started">
+    <a class='wv-tour-close' href="#wvtour004-closed"></a>
+    <a class='wv-tour-back' href="#wvtour003-icebergs"></a>
+    <a class='wv-tour-forward' href="#wvtour005-icebergs"></a>
+  </div>
+  <div id="wvtour005-icebergs" class="wv-tour wv-tour-started">
+    <a class='wv-tour-close' href="#wvtour005-closed"></a>
+    <a class='wv-tour-back' href="#wvtour004-icebergs"></a>
+    <a class='wv-tour-forward' href="#wvtour006-icebergs"></a>
+  </div>
+  <div id="wvtour006-icebergs" class="wv-tour wv-tour-started">
+    <a class='wv-tour-close' href="#wvtour006-closed"></a>
+    <a class='wv-tour-back' href="#wvtour005-icebergs"></a>
+    <a class='wv-tour-forward' href="#wvtour007-icebergs"></a>
+  </div>
+  <div id="wvtour007-icebergs" class="wv-tour wv-tour-started">
+    <a class='wv-tour-close' href="#wvtour007-closed"></a>
+    <a class='wv-tour-back' href="#wvtour006-icebergs"></a>
+    <a class='wv-tour-forward' href="#wvtour008-icebergs"></a>
+  </div>
+  <div id="wvtour008-icebergs" class="wv-tour wv-tour-started">
+    <a class='wv-tour-close' href="#wvtour008-closed"></a>
+    <a class='wv-tour-back' href="#wvtour007-icebergs"></a>
+    <a class='wv-tour-forward' href="#wvtour009-icebergs"></a>
+  </div>
+  <div id="wvtour009-icebergs" class="wv-tour wv-tour-started">
+    <a class='wv-tour-close' href="#wvtour009-closed"></a>
+    <a class='wv-tour-back' href="#wvtour008-icebergs"></a>
+    <a class='wv-tour-forward' href="#wvtour010-icebergs"></a>
+  </div>
+  <div id="wvtour010-icebergs" class="wv-tour wv-tour-started">
+    <a class='wv-tour-close' href="#wvtour010-closed"></a>
+    <a class='wv-tour-back' href="#wvtour009-icebergs"></a>
+    <a class='wv-tour-forward' href="#wvtour011-icebergs"></a>
+  </div>
+  <div id="wvtour011-icebergs" class="wv-tour wv-tour-started">
+    <a class='wv-tour-close' href="#wvtour011-closed"></a>
+    <a class='wv-tour-back' href="#wvtour010-icebergs"></a>
+    <a class='wv-tour-forward' href="#wvtour012-icebergs"></a>
+  </div>
+  <div id="wvtour012-icebergs" class="wv-tour wv-tour-finished">
+    <a class='wv-tour-finished-explore-events' href="#wvtour001-icebergs"></a>
+    <a class='wv-tour-finished-exit-tutorial' href="#wvtour012-closed"></a>
+  </div>
+
+  <div id="wvtour002-hurricanes" class="wv-tour wv-tour-started">
+    <a class='wv-tour-close' href="#wvtour002-closed"></a>
+    <a class='wv-tour-forward' href="#wvtour003-hurricanes"></a>
+  </div>
+  <div id="wvtour003-hurricanes" class="wv-tour wv-tour-started">
+    <a class='wv-tour-close' href="#wvtour003-closed"></a>
+    <a class='wv-tour-back' href="#wvtour002-hurricanes"></a>
+    <a class='wv-tour-forward' href="#wvtour004-hurricanes"></a>
+  </div>
+  <div id="wvtour004-hurricanes" class="wv-tour wv-tour-started">
+    <a class='wv-tour-close' href="#wvtour004-closed"></a>
+    <a class='wv-tour-back' href="#wvtour003-hurricanes"></a>
+    <a class='wv-tour-forward' href="#wvtour005-hurricanes"></a>
+  </div>
+  <div id="wvtour005-hurricanes" class="wv-tour wv-tour-started">
+    <a class='wv-tour-close' href="#wvtour005-closed"></a>
+    <a class='wv-tour-back' href="#wvtour004-hurricanes"></a>
+    <a class='wv-tour-forward' href="#wvtour006-hurricanes"></a>
+  </div>
+  <div id="wvtour006-hurricanes" class="wv-tour wv-tour-started">
+    <a class='wv-tour-close' href="#wvtour006-closed"></a>
+    <a class='wv-tour-back' href="#wvtour005-hurricanes"></a>
+    <a class='wv-tour-forward' href="#wvtour007-hurricanes"></a>
+  </div>
+  <div id="wvtour007-hurricanes" class="wv-tour wv-tour-started">
+    <a class='wv-tour-close' href="#wvtour007-closed"></a>
+    <a class='wv-tour-back' href="#wvtour006-hurricanes"></a>
+    <a class='wv-tour-forward' href="#wvtour008-hurricanes"></a>
+  </div>
+  <div id="wvtour008-hurricanes" class="wv-tour wv-tour-started">
+    <a class='wv-tour-close' href="#wvtour008-closed"></a>
+    <a class='wv-tour-back' href="#wvtour007-hurricanes"></a>
+    <a class='wv-tour-forward' href="#wvtour009-hurricanes"></a>
+  </div>
+  <div id="wvtour009-hurricanes" class="wv-tour wv-tour-started">
+    <a class='wv-tour-close' href="#wvtour009-closed"></a>
+    <a class='wv-tour-back' href="#wvtour008-hurricanes"></a>
+    <a class='wv-tour-forward' href="#wvtour010-hurricanes"></a>
+  </div>
+  <div id="wvtour010-hurricanes" class="wv-tour wv-tour-started">
+    <a class='wv-tour-close' href="#wvtour010-closed"></a>
+    <a class='wv-tour-back' href="#wvtour009-hurricanes"></a>
+    <a class='wv-tour-forward' href="#wvtour011-hurricanes"></a>
+  </div>
+  <div id="wvtour011-hurricanes" class="wv-tour wv-tour-started">
+    <a class='wv-tour-close' href="#wvtour011-closed"></a>
+    <a class='wv-tour-back' href="#wvtour010-hurricanes"></a>
+    <a class='wv-tour-forward' href="#wvtour012-hurricanes"></a>
+  </div>
+  <div id="wvtour012-hurricanes" class="wv-tour wv-tour-finished">
+    <a class='wv-tour-finished-explore-events' href="#wvtour001-hurricanes"></a>
+    <a class='wv-tour-finished-exit-tutorial' href="#wvtour012-closed"></a>
+  </div>
+
+  <div id="wvtour002-dust_storms" class="wv-tour wv-tour-started">
+    <a class='wv-tour-close' href="#wvtour002-closed"></a>
+    <a class='wv-tour-forward' href="#wvtour003-dust_storms"></a>
+  </div>
+  <div id="wvtour003-dust_storms" class="wv-tour wv-tour-started">
+    <a class='wv-tour-close' href="#wvtour003-closed"></a>
+    <a class='wv-tour-back' href="#wvtour002-dust_storms"></a>
+    <a class='wv-tour-forward' href="#wvtour004-dust_storms"></a>
+  </div>
+  <div id="wvtour004-dust_storms" class="wv-tour wv-tour-started">
+    <a class='wv-tour-close' href="#wvtour004-closed"></a>
+    <a class='wv-tour-back' href="#wvtour003-dust_storms"></a>
+    <a class='wv-tour-forward' href="#wvtour005-dust_storms"></a>
+  </div>
+  <div id="wvtour005-dust_storms" class="wv-tour wv-tour-started">
+    <a class='wv-tour-close' href="#wvtour005-closed"></a>
+    <a class='wv-tour-back' href="#wvtour004-dust_storms"></a>
+    <a class='wv-tour-forward' href="#wvtour006-dust_storms"></a>
+  </div>
+  <div id="wvtour006-dust_storms" class="wv-tour wv-tour-started">
+    <a class='wv-tour-close' href="#wvtour006-closed"></a>
+    <a class='wv-tour-back' href="#wvtour005-dust_storms"></a>
+    <a class='wv-tour-forward' href="#wvtour007-dust_storms"></a>
+  </div>
+  <div id="wvtour007-dust_storms" class="wv-tour wv-tour-started">
+    <a class='wv-tour-close' href="#wvtour007-closed"></a>
+    <a class='wv-tour-back' href="#wvtour006-dust_storms"></a>
+    <a class='wv-tour-forward' href="#wvtour008-dust_storms"></a>
+  </div>
+  <div id="wvtour008-dust_storms" class="wv-tour wv-tour-started">
+    <a class='wv-tour-close' href="#wvtour008-closed"></a>
+    <a class='wv-tour-back' href="#wvtour007-dust_storms"></a>
+    <a class='wv-tour-forward' href="#wvtour009-dust_storms"></a>
+  </div>
+  <div id="wvtour009-dust_storms" class="wv-tour wv-tour-started">
+    <a class='wv-tour-close' href="#wvtour009-closed"></a>
+    <a class='wv-tour-back' href="#wvtour008-dust_storms"></a>
+    <a class='wv-tour-forward' href="#wvtour010-dust_storms"></a>
+  </div>
+  <div id="wvtour010-dust_storms" class="wv-tour wv-tour-started">
+    <a class='wv-tour-close' href="#wvtour010-closed"></a>
+    <a class='wv-tour-back' href="#wvtour009-dust_storms"></a>
+    <a class='wv-tour-forward' href="#wvtour011-dust_storms"></a>
+  </div>
+  <div id="wvtour011-dust_storms" class="wv-tour wv-tour-started">
+    <a class='wv-tour-close' href="#wvtour011-closed"></a>
+    <a class='wv-tour-back' href="#wvtour010-dust_storms"></a>
+    <a class='wv-tour-forward' href="#wvtour012-dust_storms"></a>
+  </div>
+  <div id="wvtour012-dust_storms" class="wv-tour wv-tour-finished">
+    <a class='wv-tour-finished-explore-events' href="#wvtour001-dust_storms"></a>
+    <a class='wv-tour-finished-exit-tutorial' href="#wvtour012-closed"></a>
+  </div>
+
+
+  <!-- TOUR CLOSED -->
+  <div id="wvtour001-closed" class="wv-tour wv-tour-closed">
+    <a class="info-button" href="#wvtour001-wildfires"></a>
+  </div>
+  <div id="wvtour002-closed" class="wv-tour wv-tour-closed">
+    <a class="info-button" href="#wvtour001-wildfires"></a>
+  </div>
+  <div id="wvtour003-closed" class="wv-tour wv-tour-closed">
+    <a class="info-button" href="#wvtour001-wildfires"></a>
+  </div>
+  <div id="wvtour004-closed" class="wv-tour wv-tour-closed">
+    <a class="info-button" href="#wvtour001-wildfires"></a>
+  </div>
+  <div id="wvtour005-closed" class="wv-tour wv-tour-closed">
+    <a class="info-button" href="#wvtour001-wildfires"></a>
+  </div>
+  <div id="wvtour006-closed" class="wv-tour wv-tour-closed">
+    <a class="info-button" href="#wvtour001-wildfires"></a>
+  </div>
+  <div id="wvtour007-closed" class="wv-tour wv-tour-closed">
+    <a class="info-button" href="#wvtour001-wildfires"></a>
+  </div>
+  <div id="wvtour008-closed" class="wv-tour wv-tour-closed">
+    <a class="info-button" href="#wvtour001-wildfires"></a>
+  </div>
+  <div id="wvtour009-closed" class="wv-tour wv-tour-closed">
+    <a class="info-button" href="#wvtour001-wildfires"></a>
+  </div>
+  <div id="wvtour010-closed" class="wv-tour wv-tour-closed">
+    <a class="info-button" href="#wvtour001-wildfires"></a>
+  </div>
+  <div id="wvtour011-closed" class="wv-tour wv-tour-closed">
+    <a class="info-button" href="#wvtour001-wildfires"></a>
+  </div>
+  <div id="wvtour012-closed" class="wv-tour wv-tour-closed">
+    <a class="info-button" href="#wvtour001-wildfires"></a>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
