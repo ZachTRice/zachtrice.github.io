@@ -194,51 +194,56 @@
 
  /* TOUR CLOSED */
  #wvtour001-closed {
-  background-image:  url("../../designs/v0.5.0/started/wv-tour-closed001/wv-tourExtra-Large.png");
+  background-image:  url("../../designs/v0.5.0/closed/wv-tour-closed001/wv-tourExtra-Large.png");
  }
 
  #wvtour002-closed {
-  background-image:  url("../../designs/v0.5.0/started/wv-tour-closed002/wv-tour-startedExtra-Large.png");
+  background-image:  url("../../designs/v0.5.0/closed/wv-tour-closed002/wv-tour-startedExtra-Large.png");
  }
 
  #wvtour003-closed {
-  background-image:  url("../../designs/v0.5.0/started/wv-tour-closed003/wv-tour-startedExtra-Large.png");
+  background-image:  url("../../designs/v0.5.0/closed/wv-tour-closed003/wv-tour-startedExtra-Large.png");
  }
 
  #wvtour004-closed {
-  background-image:  url("../../designs/v0.5.0/started/wv-tour-closed004/wv-tour-startedExtra-Large.png");
+  background-image:  url("../../designs/v0.5.0/closed/wv-tour-closed004/wv-tour-startedExtra-Large.png");
  }
 
  #wvtour005-closed {
-  background-image:  url("../../designs/v0.5.0/started/wv-tour-closed005/wv-tour-startedExtra-Large.png");
+  background-image:  url("../../designs/v0.5.0/closed/wv-tour-closed005/wv-tour-startedExtra-Large.png");
  }
 
  #wvtour006-closed {
-  background-image:  url("../../designs/v0.5.0/started/wv-tour-closed006/wv-tour-startedExtra-Large.png");
+  background-image:  url("../../designs/v0.5.0/closed/wv-tour-closed006/wv-tour-startedExtra-Large.png");
  }
 
  #wvtour007-closed {
-  background-image:  url("../../designs/v0.5.0/started/wv-tour-closed007/wv-tour-startedExtra-Large.png");
+  background-image:  url("../../designs/v0.5.0/closed/wv-tour-closed007/wv-tour-startedExtra-Large.png");
  }
 
  #wvtour008-closed {
-  background-image:  url("../../designs/v0.5.0/started/wv-tour-closed008/wv-tour-startedExtra-Large.png");
+  background-image:  url("../../designs/v0.5.0/closed/wv-tour-closed008/wv-tour-startedExtra-Large.png");
  }
 
  #wvtour009-closed {
-  background-image:  url("../../designs/v0.5.0/started/wv-tour-closed009/wv-tour-startedExtra-Large.png");
+  background-image:  url("../../designs/v0.5.0/closed/wv-tour-closed009/wv-tour-startedExtra-Large.png");
  }
 
  #wvtour010-closed {
-  background-image:  url("../../designs/v0.5.0/started/wv-tour-closed010/wv-tour-startedExtra-Large.png");
+  background-image:  url("../../designs/v0.5.0/closed/wv-tour-closed010/wv-tour-startedExtra-Large.png");
  }
 
  #wvtour011-closed {
-  background-image:  url("../../designs/v0.5.0/started/wv-tour-closed011/wv-tour-startedExtra-Large.png");
+  background-image:  url("../../designs/v0.5.0/closed/wv-tour-closed011/wv-tour-startedExtra-Large.png");
  }
 
  #wvtour012-closed {
-  background-image:  url("../../designs/v0.5.0/started/wv-tour-closed012/wv-tour-startedExtra-Large.png");
+  background-image:  url("../../designs/v0.5.0/closed/wv-tour-closed012/wv-tour-startedExtra-Large.png");
+ }
+
+ /* MORE EVENTS */
+ #wvtour001-events {
+  background-image:  url("../../designs/v0.5.0/closed/wv-tour-events001/wv-tour-startedExtra-Large.png");
  }
 
 /* ACTIONS: Tour Startup */
@@ -250,6 +255,11 @@
   height: 404px;
 }
 
+.start-2018-ca-wildfires:hover {
+  background-image: url("../../designs/v0.5.0/start/masonry/hover-2018-california-wildfires.png");
+  background-size: 200px 404px;
+}
+
 .start-2017-iceberg {
   position: absolute;
   top: 269px;
@@ -258,12 +268,23 @@
   height: 200px;
 }
 
+.start-2017-iceberg:hover {
+  background-image: url("../../designs/v0.5.0/start/masonry/hover-2017-larsen-c-iceberg.png");
+  background-size: 404px 200px;
+}
+
+
 .start-2017-hurricane-maria {
   position: absolute;
   top: 473px;
   left: 579px;
   width: 200px;
   height: 200px;
+}
+
+.start-2017-hurricane-maria:hover {
+  background-image: url("../../designs/v0.5.0/start/masonry/hover-2017-hurricane-maria.png");
+  background-size: 200px 200px;
 }
 
 .start-2018-hurricane-hector {
@@ -274,11 +295,29 @@
   height: 200px;
 }
 
+.start-2018-hurricane-hector:hover {
+  background-image: url("../../designs/v0.5.0/start/masonry/hover-2018-hurricane-hector.png");
+  background-size: 200px 200px;
+}
+
 .start-2018-dust-storm {
   position: absolute;
   top: 677px;
   left: 375px;
   width: 404px;
+  height: 200px;
+}
+
+.start-2018-dust-storm:hover {
+  background-image: url("../../designs/v0.5.0/start/masonry/hover-2018-saharan-dust-storm.png");
+  background-size: 404px 200px;
+}
+
+.start-more-events {
+  position: absolute;
+  top: 677px;
+  left: 783px;
+  width: 200px;
   height: 200px;
 }
 
@@ -303,7 +342,7 @@
   position: absolute;
   width: 155px;
   height: 32px;
-  top: 559px;
+  top: 524px;
   left: 490px;
 }
 
@@ -311,7 +350,7 @@
   position: absolute;
   width: 155px;
   height: 32px;
-  top: 559px;
+  top: 524px;
   left: 665px;
 }
 
