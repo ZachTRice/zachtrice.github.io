@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+}
+.main {
+  background-color: #cccc99;
+}
+.center {
+  display: block;
+  width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+}
