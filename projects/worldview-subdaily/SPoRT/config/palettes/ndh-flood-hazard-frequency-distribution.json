@@ -1,0 +1,36 @@
+{
+    "maps": [
+        {
+            "title": "Flood Hazard Frequency and Distribution",
+            "type": "classification",
+            "legend": {
+                "tooltips": [
+                    "1 - 2",
+                    "3 - 5",
+                    "6 - 11",
+                    "12 - 25"
+                ],
+                "colors": [
+                    "f1eef6ff",
+                    "bdc9e1ff",
+                    "74a9cfff",
+                    "0570b0ff"
+                ],
+                "type": "classification",
+                "id": "ndh-flood-hazard-frequency-distribution_0_legend",
+                "title": "Flood Hazard Frequency and Distribution"
+            },
+            "entries": {
+                "colors": [
+                    "f1eef6ff",
+                    "bdc9e1ff",
+                    "74a9cfff",
+                    "0570b0ff"
+                ],
+                "type": "classification",
+                "title": "Flood Hazard Frequency and Distribution"
+            }
+        }
+    ],
+    "id": "ndh-flood-hazard-frequency-distribution"
+}

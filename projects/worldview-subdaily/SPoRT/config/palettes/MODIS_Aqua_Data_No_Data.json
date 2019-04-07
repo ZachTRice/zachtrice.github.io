@@ -1,0 +1,27 @@
+{
+    "maps": [
+        {
+            "title": "Data / No Data",
+            "type": "classification",
+            "legend": {
+                "tooltips": [
+                    "No Data"
+                ],
+                "colors": [
+                    "caaa56ff"
+                ],
+                "type": "classification",
+                "id": "MODIS_Aqua_Data_No_Data_0_legend",
+                "title": "Data / No Data"
+            },
+            "entries": {
+                "colors": [
+                    "caaa56ff"
+                ],
+                "type": "classification",
+                "title": "Data / No Data"
+            }
+        }
+    ],
+    "id": "MODIS_Aqua_Data_No_Data"
+}

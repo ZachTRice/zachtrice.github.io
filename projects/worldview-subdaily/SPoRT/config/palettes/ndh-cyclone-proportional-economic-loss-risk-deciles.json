@@ -1,0 +1,33 @@
+{
+    "maps": [
+        {
+            "title": "Cyclone Hazard Economic Risk",
+            "type": "classification",
+            "legend": {
+                "tooltips": [
+                    "1st - 4th, lower risk",
+                    "5th - 7th, middle risk",
+                    "8th - 10th, high risk"
+                ],
+                "colors": [
+                    "ece7f2ff",
+                    "a6bddbff",
+                    "2b8cbeff"
+                ],
+                "type": "classification",
+                "id": "ndh-cyclone-proportional-economic-loss-risk-deciles_0_legend",
+                "title": "Cyclone Hazard Economic Risk"
+            },
+            "entries": {
+                "colors": [
+                    "ece7f2ff",
+                    "a6bddbff",
+                    "2b8cbeff"
+                ],
+                "type": "classification",
+                "title": "Cyclone Hazard Economic Risk"
+            }
+        }
+    ],
+    "id": "ndh-cyclone-proportional-economic-loss-risk-deciles"
+}

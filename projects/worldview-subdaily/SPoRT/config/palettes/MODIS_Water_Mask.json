@@ -1,0 +1,27 @@
+{
+    "maps": [
+        {
+            "title": "Water Mask",
+            "type": "classification",
+            "legend": {
+                "tooltips": [
+                    "Water"
+                ],
+                "colors": [
+                    "a8f8ffff"
+                ],
+                "type": "classification",
+                "id": "MODIS_Water_Mask_0_legend",
+                "title": "Water Mask"
+            },
+            "entries": {
+                "colors": [
+                    "a8f8ffff"
+                ],
+                "type": "classification",
+                "title": "Water Mask"
+            }
+        }
+    ],
+    "id": "MODIS_Water_Mask"
+}

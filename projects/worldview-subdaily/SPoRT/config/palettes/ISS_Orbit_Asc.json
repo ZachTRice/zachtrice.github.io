@@ -1,0 +1,27 @@
+{
+    "maps": [
+        {
+            "title": "ISS Orbital Track",
+            "type": "classification",
+            "legend": {
+                "tooltips": [
+                    "Acquisition Time (UTC)"
+                ],
+                "colors": [
+                    "db7093ff"
+                ],
+                "type": "classification",
+                "id": "ISS_Orbit_Asc_0_legend",
+                "title": "ISS Orbital Track"
+            },
+            "entries": {
+                "colors": [
+                    "db7093ff"
+                ],
+                "type": "classification",
+                "title": "ISS Orbital Track"
+            }
+        }
+    ],
+    "id": "ISS_Orbit_Asc"
+}

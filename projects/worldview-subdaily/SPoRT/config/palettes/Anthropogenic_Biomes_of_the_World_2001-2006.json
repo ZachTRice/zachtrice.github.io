@@ -1,0 +1,87 @@
+{
+    "maps": [
+        {
+            "title": "Biomes",
+            "type": "classification",
+            "legend": {
+                "tooltips": [
+                    "Urban",
+                    "Dense settlements",
+                    "Rice villages",
+                    "Irrigated villages",
+                    "Cropped pastoral villages",
+                    "Pastoral villages",
+                    "Rainfed villages",
+                    "Rainfed mosaic villages",
+                    "Residential irrigated cropland",
+                    "Residential rainfed mosaic",
+                    "Populated irrigated cropland",
+                    "Populated rainfed cropland",
+                    "Remote cropland",
+                    "Residential rangeland",
+                    "Populated rangeland",
+                    "Remote rangeland",
+                    "Populated forest",
+                    "Remote forest",
+                    "Wild forest",
+                    "Sparse trees",
+                    "Barren"
+                ],
+                "colors": [
+                    "a80000ff",
+                    "ff0000ff",
+                    "0070ffff",
+                    "00c5ffff",
+                    "00ffc5ff",
+                    "ff73dfff",
+                    "a900e6ff",
+                    "ff00c5ff",
+                    "70a800ff",
+                    "98e600ff",
+                    "e6e600ff",
+                    "d1ff73ff",
+                    "ffff73ff",
+                    "e69800ff",
+                    "ffd37fff",
+                    "ffebafff",
+                    "2ed16fff",
+                    "9ed7c2ff",
+                    "cdffcdff",
+                    "ebffebff",
+                    "e1e1e1ff"
+                ],
+                "type": "classification",
+                "id": "Anthropogenic_Biomes_of_the_World_2001-2006_0_legend",
+                "title": "Biomes"
+            },
+            "entries": {
+                "colors": [
+                    "a80000ff",
+                    "ff0000ff",
+                    "0070ffff",
+                    "00c5ffff",
+                    "00ffc5ff",
+                    "ff73dfff",
+                    "a900e6ff",
+                    "ff00c5ff",
+                    "70a800ff",
+                    "98e600ff",
+                    "e6e600ff",
+                    "d1ff73ff",
+                    "ffff73ff",
+                    "e69800ff",
+                    "ffd37fff",
+                    "ffebafff",
+                    "2ed16fff",
+                    "9ed7c2ff",
+                    "cdffcdff",
+                    "ebffebff",
+                    "e1e1e1ff"
+                ],
+                "type": "classification",
+                "title": "Biomes"
+            }
+        }
+    ],
+    "id": "Anthropogenic_Biomes_of_the_World_2001-2006"
+}

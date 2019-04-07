@@ -1,0 +1,27 @@
+{
+    "maps": [
+        {
+            "title": "Fires Night",
+            "type": "classification",
+            "legend": {
+                "tooltips": [
+                    "Fire"
+                ],
+                "colors": [
+                    "ff0000ff"
+                ],
+                "type": "classification",
+                "id": "VIIRS_SNPP_Fires_375m_Night_0_legend",
+                "title": "Fires Night"
+            },
+            "entries": {
+                "colors": [
+                    "ff0000ff"
+                ],
+                "type": "classification",
+                "title": "Fires Night"
+            }
+        }
+    ],
+    "id": "VIIRS_SNPP_Fires_375m_Night"
+}

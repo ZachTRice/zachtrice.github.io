@@ -1,0 +1,33 @@
+{
+    "maps": [
+        {
+            "title": "Cloud Phase Optical Properties",
+            "type": "classification",
+            "legend": {
+                "tooltips": [
+                    "Liquid Water",
+                    "Ice",
+                    "Uncertain"
+                ],
+                "colors": [
+                    "000064ff",
+                    "bcd2feff",
+                    "f0be40ff"
+                ],
+                "type": "classification",
+                "id": "MODIS_Aqua_Cloud_Phase_Optical_Properties_0_legend",
+                "title": "Cloud Phase Optical Properties"
+            },
+            "entries": {
+                "colors": [
+                    "000064ff",
+                    "bcd2feff",
+                    "f0be40ff"
+                ],
+                "type": "classification",
+                "title": "Cloud Phase Optical Properties"
+            }
+        }
+    ],
+    "id": "MODIS_Aqua_Cloud_Phase_Optical_Properties"
+}

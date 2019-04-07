@@ -1,0 +1,78 @@
+{
+    "maps": [
+        {
+            "title": "Classifications",
+            "type": "classification",
+            "legend": {
+                "tooltips": [
+                    "Evergreen Needleleaf Forests",
+                    "Evergreen Broadleaf Forests",
+                    "Deciduous Needleleaf Forests",
+                    "Deciduous Broadleaf Forests",
+                    "Mixed Forests",
+                    "Closed Shrublands",
+                    "Open Shrublands",
+                    "Woody Savannas",
+                    "Savannas",
+                    "Grasslands",
+                    "Permanent Wetlands",
+                    "Croplands",
+                    "Urban and Built-up Lands",
+                    "Cropland/Natural Vegetation Mosaics",
+                    "Permanent Snow and Ice",
+                    "Barren",
+                    "Water Bodies",
+                    "Unclassified"
+                ],
+                "colors": [
+                    "218a21ff",
+                    "31cc31ff",
+                    "98cc31ff",
+                    "96fa96ff",
+                    "8dba8dff",
+                    "ba8d8dff",
+                    "f5deb3ff",
+                    "daeb9dff",
+                    "ffd500ff",
+                    "f0b967ff",
+                    "4783b5ff",
+                    "faef73ff",
+                    "ff0000ff",
+                    "999356ff",
+                    "ffffffff",
+                    "bfbfbdff",
+                    "86cae3ff",
+                    "646464ff"
+                ],
+                "type": "classification",
+                "id": "MODIS_Combined_IGBP_Land_Cover_Type_Annual_0_legend",
+                "title": "Classifications"
+            },
+            "entries": {
+                "colors": [
+                    "218a21ff",
+                    "31cc31ff",
+                    "98cc31ff",
+                    "96fa96ff",
+                    "8dba8dff",
+                    "ba8d8dff",
+                    "f5deb3ff",
+                    "daeb9dff",
+                    "ffd500ff",
+                    "f0b967ff",
+                    "4783b5ff",
+                    "faef73ff",
+                    "ff0000ff",
+                    "999356ff",
+                    "ffffffff",
+                    "bfbfbdff",
+                    "86cae3ff",
+                    "646464ff"
+                ],
+                "type": "classification",
+                "title": "Classifications"
+            }
+        }
+    ],
+    "id": "MODIS_Combined_IGBP_Land_Cover_Type_Annual"
+}

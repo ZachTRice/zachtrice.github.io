@@ -1,0 +1,27 @@
+{
+    "maps": [
+        {
+            "title": "Calipso Orbital Track",
+            "type": "classification",
+            "legend": {
+                "tooltips": [
+                    "Acquisition Time (UTC)"
+                ],
+                "colors": [
+                    "d8ba19ff"
+                ],
+                "type": "classification",
+                "id": "Calipso_Orbit_Asc_0_legend",
+                "title": "Calipso Orbital Track"
+            },
+            "entries": {
+                "colors": [
+                    "d8ba19ff"
+                ],
+                "type": "classification",
+                "title": "Calipso Orbital Track"
+            }
+        }
+    ],
+    "id": "Calipso_Orbit_Asc"
+}

@@ -1,0 +1,33 @@
+{
+    "maps": [
+        {
+            "title": "Flood Hazard Economic Risk",
+            "type": "classification",
+            "legend": {
+                "tooltips": [
+                    "1st - 4th",
+                    "5th - 7th",
+                    "8th - 10th"
+                ],
+                "colors": [
+                    "ece7f2ff",
+                    "a6bddbff",
+                    "2b8cbeff"
+                ],
+                "type": "classification",
+                "id": "ndh-flood-proportional-economic-loss-risk-deciles_0_legend",
+                "title": "Flood Hazard Economic Risk"
+            },
+            "entries": {
+                "colors": [
+                    "ece7f2ff",
+                    "a6bddbff",
+                    "2b8cbeff"
+                ],
+                "type": "classification",
+                "title": "Flood Hazard Economic Risk"
+            }
+        }
+    ],
+    "id": "ndh-flood-proportional-economic-loss-risk-deciles"
+}

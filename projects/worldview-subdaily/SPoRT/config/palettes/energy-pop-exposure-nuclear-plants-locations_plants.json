@@ -1,0 +1,27 @@
+{
+    "maps": [
+        {
+            "title": "Power Plants",
+            "type": "classification",
+            "legend": {
+                "tooltips": [
+                    "Power Plants"
+                ],
+                "colors": [
+                    "a52a2aff"
+                ],
+                "type": "classification",
+                "id": "energy-pop-exposure-nuclear-plants-locations_plants_0_legend",
+                "title": "Power Plants"
+            },
+            "entries": {
+                "colors": [
+                    "a52a2aff"
+                ],
+                "type": "classification",
+                "title": "Power Plants"
+            }
+        }
+    ],
+    "id": "energy-pop-exposure-nuclear-plants-locations_plants"
+}

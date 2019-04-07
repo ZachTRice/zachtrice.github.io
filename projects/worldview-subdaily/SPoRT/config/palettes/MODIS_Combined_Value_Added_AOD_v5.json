@@ -1,0 +1,124 @@
+{
+    "maps": [
+        {
+            "title": "Aerosol Optical Depth",
+            "type": "continuous",
+            "legend": {
+                "tooltips": [
+                    "-0.05",
+                    "0.00",
+                    "0.05",
+                    "0.10",
+                    "0.15",
+                    "0.20",
+                    "0.25",
+                    "0.30",
+                    "0.35",
+                    "0.40",
+                    "0.45",
+                    "0.50",
+                    "0.55",
+                    "0.60",
+                    "0.65",
+                    "0.70"
+                ],
+                "title": "Aerosol Optical Depth",
+                "colors": [
+                    "660077ff",
+                    "b70f8dff",
+                    "000064ff",
+                    "0000aaff",
+                    "0000ffff",
+                    "0088eeff",
+                    "005000ff",
+                    "008800ff",
+                    "00dc00ff",
+                    "ffff00ff",
+                    "f0be40ff",
+                    "bb8800ff",
+                    "7a5a03ff",
+                    "6e0000ff",
+                    "aa0000ff",
+                    "ff0000ff"
+                ],
+                "maxLabel": "0.70",
+                "minLabel": "-0.15",
+                "type": "continuous",
+                "id": "MODIS_Combined_Value_Added_AOD_v5_0_legend"
+            },
+            "entries": {
+                "values": [
+                    [
+                        -0.05
+                    ],
+                    [
+                        0.0
+                    ],
+                    [
+                        0.05
+                    ],
+                    [
+                        0.1
+                    ],
+                    [
+                        0.15
+                    ],
+                    [
+                        0.2
+                    ],
+                    [
+                        0.25
+                    ],
+                    [
+                        0.3
+                    ],
+                    [
+                        0.35
+                    ],
+                    [
+                        0.4
+                    ],
+                    [
+                        0.45
+                    ],
+                    [
+                        0.5
+                    ],
+                    [
+                        0.55
+                    ],
+                    [
+                        0.6
+                    ],
+                    [
+                        0.65
+                    ],
+                    [
+                        0.7
+                    ]
+                ],
+                "colors": [
+                    "660077ff",
+                    "b70f8dff",
+                    "000064ff",
+                    "0000aaff",
+                    "0000ffff",
+                    "0088eeff",
+                    "005000ff",
+                    "008800ff",
+                    "00dc00ff",
+                    "ffff00ff",
+                    "f0be40ff",
+                    "bb8800ff",
+                    "7a5a03ff",
+                    "6e0000ff",
+                    "aa0000ff",
+                    "ff0000ff"
+                ],
+                "type": "continuous",
+                "title": "Aerosol Optical Depth"
+            }
+        }
+    ],
+    "id": "MODIS_Combined_Value_Added_AOD_v5"
+}

@@ -1,0 +1,30 @@
+{
+    "maps": [
+        {
+            "title": "Urban Extents",
+            "type": "classification",
+            "legend": {
+                "tooltips": [
+                    "Rural",
+                    "Urban"
+                ],
+                "colors": [
+                    "dcdcdcff",
+                    "e31a1cff"
+                ],
+                "type": "classification",
+                "id": "grump-v1-urban-extents_0_legend",
+                "title": "Urban Extents"
+            },
+            "entries": {
+                "colors": [
+                    "dcdcdcff",
+                    "e31a1cff"
+                ],
+                "type": "classification",
+                "title": "Urban Extents"
+            }
+        }
+    ],
+    "id": "grump-v1-urban-extents"
+}

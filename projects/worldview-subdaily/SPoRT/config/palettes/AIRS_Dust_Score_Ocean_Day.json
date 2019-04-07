@@ -1,0 +1,91 @@
+{
+    "maps": [
+        {
+            "title": "Dust Score",
+            "type": "continuous",
+            "legend": {
+                "tooltips": [
+                    "360 \u2013 360.65",
+                    "360.65 \u2013 380",
+                    "380 \u2013 400",
+                    "400 \u2013 420",
+                    "420 \u2013 440",
+                    "440 \u2013 460",
+                    "460 \u2013 480",
+                    "480 \u2013 500",
+                    ">= 500"
+                ],
+                "title": "Dust Score",
+                "colors": [
+                    "fffee3ff",
+                    "fffbd1ff",
+                    "fef1afff",
+                    "fede87ff",
+                    "fec44fff",
+                    "fea030ff",
+                    "f27d1bff",
+                    "db5d0aff",
+                    "b64102ff"
+                ],
+                "maxLabel": ">= 500",
+                "minLabel": "360",
+                "type": "continuous",
+                "id": "AIRS_Dust_Score_Ocean_Day_0_legend"
+            },
+            "entries": {
+                "values": [
+                    [
+                        360.0,
+                        360.65
+                    ],
+                    [
+                        360.65,
+                        380.0
+                    ],
+                    [
+                        380.0,
+                        400.0
+                    ],
+                    [
+                        400.0,
+                        420.0
+                    ],
+                    [
+                        420.0,
+                        440.0
+                    ],
+                    [
+                        440.0,
+                        460.0
+                    ],
+                    [
+                        460.0,
+                        480.0
+                    ],
+                    [
+                        480.0,
+                        500.0
+                    ],
+                    [
+                        500.0,
+                        1000.0
+                    ]
+                ],
+                "colors": [
+                    "fffee3ff",
+                    "fffbd1ff",
+                    "fef1afff",
+                    "fede87ff",
+                    "fec44fff",
+                    "fea030ff",
+                    "f27d1bff",
+                    "db5d0aff",
+                    "b64102ff"
+                ],
+                "type": "continuous",
+                "title": "Dust Score"
+            }
+        }
+    ],
+    "id": "AIRS_Dust_Score_Ocean_Day"
+}

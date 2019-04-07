@@ -1,0 +1,27 @@
+{
+    "maps": [
+        {
+            "title": "Sentinel-2A Orbital Track",
+            "type": "classification",
+            "legend": {
+                "tooltips": [
+                    "Acquisition Time (UTC)"
+                ],
+                "colors": [
+                    "ff33ccff"
+                ],
+                "type": "classification",
+                "id": "Sentinel_2A_Orbit_Dsc_0_legend",
+                "title": "Sentinel-2A Orbital Track"
+            },
+            "entries": {
+                "colors": [
+                    "ff33ccff"
+                ],
+                "type": "classification",
+                "title": "Sentinel-2A Orbital Track"
+            }
+        }
+    ],
+    "id": "Sentinel_2A_Orbit_Dsc"
+}

@@ -1,0 +1,27 @@
+{
+    "maps": [
+        {
+            "title": "METOP-A Orbital Track",
+            "type": "classification",
+            "legend": {
+                "tooltips": [
+                    "Acquisition Time (UTC)"
+                ],
+                "colors": [
+                    "b290c1ff"
+                ],
+                "type": "classification",
+                "id": "METOP_A_Orbit_Asc_0_legend",
+                "title": "METOP-A Orbital Track"
+            },
+            "entries": {
+                "colors": [
+                    "b290c1ff"
+                ],
+                "type": "classification",
+                "title": "METOP-A Orbital Track"
+            }
+        }
+    ],
+    "id": "METOP_A_Orbit_Asc"
+}

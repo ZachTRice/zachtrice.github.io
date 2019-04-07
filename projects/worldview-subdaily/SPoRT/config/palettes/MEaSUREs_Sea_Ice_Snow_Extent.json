@@ -1,0 +1,36 @@
+{
+    "maps": [
+        {
+            "title": "Classifications",
+            "type": "classification",
+            "legend": {
+                "tooltips": [
+                    "Snow Covered Land",
+                    "Snow Free Land",
+                    "Sea Ice Cover",
+                    "Pole Hole"
+                ],
+                "colors": [
+                    "f5f5ffff",
+                    "777777ff",
+                    "e1e1ffff",
+                    "000000ff"
+                ],
+                "type": "classification",
+                "id": "MEaSUREs_Sea_Ice_Snow_Extent_0_legend",
+                "title": "Classifications"
+            },
+            "entries": {
+                "colors": [
+                    "f5f5ffff",
+                    "777777ff",
+                    "e1e1ffff",
+                    "000000ff"
+                ],
+                "type": "classification",
+                "title": "Classifications"
+            }
+        }
+    ],
+    "id": "MEaSUREs_Sea_Ice_Snow_Extent"
+}

@@ -1,0 +1,27 @@
+{
+    "maps": [
+        {
+            "title": "NOAA-20 Orbital Track",
+            "type": "classification",
+            "legend": {
+                "tooltips": [
+                    "Acquisition Time (UTC)"
+                ],
+                "colors": [
+                    "ffccffff"
+                ],
+                "type": "classification",
+                "id": "NOAA_20_Orbit_Asc_0_legend",
+                "title": "NOAA-20 Orbital Track"
+            },
+            "entries": {
+                "colors": [
+                    "ffccffff"
+                ],
+                "type": "classification",
+                "title": "NOAA-20 Orbital Track"
+            }
+        }
+    ],
+    "id": "NOAA_20_Orbit_Asc"
+}

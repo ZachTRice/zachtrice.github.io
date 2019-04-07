@@ -1,0 +1,30 @@
+{
+    "maps": [
+        {
+            "title": "Freeze/Thaw",
+            "type": "classification",
+            "legend": {
+                "tooltips": [
+                    "Thaw",
+                    "Freeze"
+                ],
+                "colors": [
+                    "644f2dff",
+                    "6586ffff"
+                ],
+                "type": "classification",
+                "id": "SMAP_L3_Active_Day_Freeze_Thaw_0_legend",
+                "title": "Freeze/Thaw"
+            },
+            "entries": {
+                "colors": [
+                    "644f2dff",
+                    "6586ffff"
+                ],
+                "type": "classification",
+                "title": "Freeze/Thaw"
+            }
+        }
+    ],
+    "id": "SMAP_L3_Active_Day_Freeze_Thaw"
+}

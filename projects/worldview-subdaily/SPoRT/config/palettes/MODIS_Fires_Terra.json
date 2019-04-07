@@ -1,0 +1,27 @@
+{
+    "maps": [
+        {
+            "title": "Fires Terra",
+            "type": "classification",
+            "legend": {
+                "tooltips": [
+                    "Fire"
+                ],
+                "colors": [
+                    "ff0000ff"
+                ],
+                "type": "classification",
+                "id": "MODIS_Fires_Terra_0_legend",
+                "title": "Fires Terra"
+            },
+            "entries": {
+                "colors": [
+                    "ff0000ff"
+                ],
+                "type": "classification",
+                "title": "Fires Terra"
+            }
+        }
+    ],
+    "id": "MODIS_Fires_Terra"
+}
