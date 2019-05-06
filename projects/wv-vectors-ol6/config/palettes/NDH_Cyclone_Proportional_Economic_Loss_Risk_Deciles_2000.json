@@ -1,0 +1,89 @@
+{
+  "maps": [
+    {
+      "title": "Economic Risk",
+      "type": "discrete",
+      "legend": {
+        "tooltips": [
+          "1st",
+          "2nd",
+          "3rd",
+          "4th",
+          "5th",
+          "6th",
+          "7th",
+          "8th",
+          "9th",
+          "10th"
+        ],
+        "title": "Economic Risk",
+        "colors": [
+          "f7fbffff",
+          "fff7fbff",
+          "ece7f2ff",
+          "d0d1e6ff",
+          "a6bddbff",
+          "74a9cfff",
+          "3690c0ff",
+          "0570b0ff",
+          "045a8dff",
+          "023858ff"
+        ],
+        "maxLabel": "10th",
+        "minLabel": "1st",
+        "units": "Decile",
+        "type": "discrete",
+        "id": "NDH_Cyclone_Proportional_Economic_Loss_Risk_Deciles_2000_0_legend"
+      },
+      "entries": {
+        "values": [
+          [
+            1.0
+          ],
+          [
+            2.0
+          ],
+          [
+            3.0
+          ],
+          [
+            4.0
+          ],
+          [
+            5.0
+          ],
+          [
+            6.0
+          ],
+          [
+            7.0
+          ],
+          [
+            8.0
+          ],
+          [
+            9.0
+          ],
+          [
+            10.0
+          ]
+        ],
+        "colors": [
+          "f7fbffff",
+          "fff7fbff",
+          "ece7f2ff",
+          "d0d1e6ff",
+          "a6bddbff",
+          "74a9cfff",
+          "3690c0ff",
+          "0570b0ff",
+          "045a8dff",
+          "023858ff"
+        ],
+        "type": "discrete",
+        "title": "Economic Risk"
+      }
+    }
+  ],
+  "id": "NDH_Cyclone_Proportional_Economic_Loss_Risk_Deciles_2000"
+}

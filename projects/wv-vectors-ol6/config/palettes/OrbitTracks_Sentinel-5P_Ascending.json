@@ -1,0 +1,27 @@
+{
+  "maps": [
+    {
+      "title": "Sentinel-5P Orbital Track",
+      "type": "classification",
+      "legend": {
+        "tooltips": [
+          "Acquisition Time (UTC)"
+        ],
+        "colors": [
+          "999900ff"
+        ],
+        "type": "classification",
+        "id": "OrbitTracks_Sentinel-5P_Ascending_0_legend",
+        "title": "Sentinel-5P Orbital Track"
+      },
+      "entries": {
+        "colors": [
+          "999900ff"
+        ],
+        "type": "classification",
+        "title": "Sentinel-5P Orbital Track"
+      }
+    }
+  ],
+  "id": "OrbitTracks_Sentinel-5P_Ascending"
+}

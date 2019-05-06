@@ -1,0 +1,27 @@
+{
+  "maps": [
+    {
+      "title": "ICESAT-2 Orbital Track",
+      "type": "classification",
+      "legend": {
+        "tooltips": [
+          "Acquisition Time (UTC)"
+        ],
+        "colors": [
+          "16a085ff"
+        ],
+        "type": "classification",
+        "id": "OrbitTracks_ICESAT-2_Descending_0_legend",
+        "title": "ICESAT-2 Orbital Track"
+      },
+      "entries": {
+        "colors": [
+          "16a085ff"
+        ],
+        "type": "classification",
+        "title": "ICESAT-2 Orbital Track"
+      }
+    }
+  ],
+  "id": "OrbitTracks_ICESAT-2_Descending"
+}

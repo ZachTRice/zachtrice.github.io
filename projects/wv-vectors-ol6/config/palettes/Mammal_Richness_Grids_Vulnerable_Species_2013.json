@@ -1,0 +1,184 @@
+{
+  "maps": [
+    {
+      "title": "Mammal Vulnerable Species",
+      "type": "discrete",
+      "legend": {
+        "tooltips": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26"
+        ],
+        "title": "Mammal Vulnerable Species",
+        "colors": [
+          "b3ffb3ff",
+          "abf9abff",
+          "a4f4a4ff",
+          "9def9dff",
+          "96ea96ff",
+          "8fe58fff",
+          "88e088ff",
+          "80db80ff",
+          "79d679ff",
+          "72d172ff",
+          "6bcc6bff",
+          "64c764ff",
+          "5dc25dff",
+          "55bc55ff",
+          "4eb74eff",
+          "47b247ff",
+          "40ad40ff",
+          "39a839ff",
+          "32a332ff",
+          "2a9e2aff",
+          "239923ff",
+          "1c941cff",
+          "158f15ff",
+          "0e8a0eff",
+          "078507ff",
+          "008000ff"
+        ],
+        "maxLabel": "26",
+        "minLabel": "1",
+        "type": "discrete",
+        "id": "Mammal_Richness_Grids_Vulnerable_Species_2013_0_legend"
+      },
+      "entries": {
+        "values": [
+          [
+            1.0
+          ],
+          [
+            2.0
+          ],
+          [
+            3.0
+          ],
+          [
+            4.0
+          ],
+          [
+            5.0
+          ],
+          [
+            6.0
+          ],
+          [
+            7.0
+          ],
+          [
+            8.0
+          ],
+          [
+            9.0
+          ],
+          [
+            10.0
+          ],
+          [
+            11.0
+          ],
+          [
+            12.0
+          ],
+          [
+            13.0
+          ],
+          [
+            14.0
+          ],
+          [
+            15.0
+          ],
+          [
+            16.0
+          ],
+          [
+            17.0
+          ],
+          [
+            18.0
+          ],
+          [
+            19.0
+          ],
+          [
+            20.0
+          ],
+          [
+            21.0
+          ],
+          [
+            22.0
+          ],
+          [
+            23.0
+          ],
+          [
+            24.0
+          ],
+          [
+            25.0
+          ],
+          [
+            26.0
+          ]
+        ],
+        "colors": [
+          "b3ffb3ff",
+          "abf9abff",
+          "a4f4a4ff",
+          "9def9dff",
+          "96ea96ff",
+          "8fe58fff",
+          "88e088ff",
+          "80db80ff",
+          "79d679ff",
+          "72d172ff",
+          "6bcc6bff",
+          "64c764ff",
+          "5dc25dff",
+          "55bc55ff",
+          "4eb74eff",
+          "47b247ff",
+          "40ad40ff",
+          "39a839ff",
+          "32a332ff",
+          "2a9e2aff",
+          "239923ff",
+          "1c941cff",
+          "158f15ff",
+          "0e8a0eff",
+          "078507ff",
+          "008000ff"
+        ],
+        "type": "discrete",
+        "title": "Mammal Vulnerable Species"
+      }
+    }
+  ],
+  "id": "Mammal_Richness_Grids_Vulnerable_Species_2013"
+}

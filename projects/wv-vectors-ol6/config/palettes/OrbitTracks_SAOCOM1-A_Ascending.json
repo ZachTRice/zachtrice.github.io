@@ -1,0 +1,27 @@
+{
+  "maps": [
+    {
+      "title": "SAOCOM-1A Orbital Track",
+      "type": "classification",
+      "legend": {
+        "tooltips": [
+          "Acquisition Time (UTC)"
+        ],
+        "colors": [
+          "d2887fff"
+        ],
+        "type": "classification",
+        "id": "OrbitTracks_SAOCOM1-A_Ascending_0_legend",
+        "title": "SAOCOM-1A Orbital Track"
+      },
+      "entries": {
+        "colors": [
+          "d2887fff"
+        ],
+        "type": "classification",
+        "title": "SAOCOM-1A Orbital Track"
+      }
+    }
+  ],
+  "id": "OrbitTracks_SAOCOM1-A_Ascending"
+}

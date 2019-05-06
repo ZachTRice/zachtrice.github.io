@@ -1,0 +1,33 @@
+{
+  "maps": [
+    {
+      "title": "Classification",
+      "type": "classification",
+      "legend": {
+        "tooltips": [
+          "Not HBASE",
+          "HBASE",
+          "Road"
+        ],
+        "colors": [
+          "e1e1e1ff",
+          "d95f02ff",
+          "377eb8ff"
+        ],
+        "type": "classification",
+        "id": "Landsat_Human_Built-up_And_Settlement_Extent_0_legend",
+        "title": "Classification"
+      },
+      "entries": {
+        "colors": [
+          "e1e1e1ff",
+          "d95f02ff",
+          "377eb8ff"
+        ],
+        "type": "classification",
+        "title": "Classification"
+      }
+    }
+  ],
+  "id": "Landsat_Human_Built-up_And_Settlement_Extent"
+}

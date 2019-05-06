@@ -1,0 +1,27 @@
+{
+  "maps": [
+    {
+      "title": "Protected Area",
+      "type": "classification",
+      "legend": {
+        "tooltips": [
+          "Protected Area"
+        ],
+        "colors": [
+          "229a00ff"
+        ],
+        "type": "classification",
+        "id": "World_Database_on_Protected_Areas_0_legend",
+        "title": "Protected Area"
+      },
+      "entries": {
+        "colors": [
+          "229a00ff"
+        ],
+        "type": "classification",
+        "title": "Protected Area"
+      }
+    }
+  ],
+  "id": "World_Database_on_Protected_Areas"
+}

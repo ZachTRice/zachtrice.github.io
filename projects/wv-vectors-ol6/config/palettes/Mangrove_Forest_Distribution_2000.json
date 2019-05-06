@@ -1,0 +1,27 @@
+{
+  "maps": [
+    {
+      "title": "Mangrove Forests",
+      "type": "classification",
+      "legend": {
+        "tooltips": [
+          "Presence of Mangroves"
+        ],
+        "colors": [
+          "00ff00ff"
+        ],
+        "type": "classification",
+        "id": "Mangrove_Forest_Distribution_2000_0_legend",
+        "title": "Mangrove Forests"
+      },
+      "entries": {
+        "colors": [
+          "00ff00ff"
+        ],
+        "type": "classification",
+        "title": "Mangrove Forests"
+      }
+    }
+  ],
+  "id": "Mangrove_Forest_Distribution_2000"
+}

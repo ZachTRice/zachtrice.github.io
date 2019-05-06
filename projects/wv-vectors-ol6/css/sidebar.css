@@ -1,0 +1,189 @@
+#wv-sidebar {
+  position: absolute;
+}
+#productsHolder {
+  position: absolute;
+  z-index: 2;
+  min-width: 286px;
+  width: 286px;
+  background: transparent;
+  left: 10px;
+  top: 65px;
+  -webkit-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  border-top: none;
+  transition: max-height 0.1s ease;
+  overflow: hidden;
+}
+#productsHolder .layer-container {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  position: relative;
+  border: 1px solid transparent;
+}
+#productsHolder .scrollbar-visible .sidebar-panel {
+  padding-right: 10px;
+}
+#productsHolder .main-nav {
+  background: rgba(40, 40, 40, 0.85);
+  border-right: 1px solid #333;
+  border-left: 1px solid #333;
+}
+#productsHolder > .tab-content {
+  background: rgba(40, 40, 40, 0.85);
+  margin-top: 10px;
+  border: 1px solid #333;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+#wv-logo {
+  border-bottom: 1px solid transparent;
+}
+#productsHolder ul#overlays {
+  margin-bottom: 10px;
+}
+.products-holder-case .nav-tabs {
+  border-bottom: 3px solid #00457b;
+}
+.products-holder-case .nav-tabs .nav-link {
+  padding: 4px 8px;
+}
+.products-holder-case .main-nav .nav-link {
+  margin: 1px 0;
+}
+#productsHolder .nav-tabs .disabled {
+  color: #fff;
+  opacity: 0.5;
+  cursor: default;
+}
+#productsHolder .layer-list-placeholder {
+  height: 0;
+}
+.products-holder-case .tab-content .nav-tabs {
+  border-bottom: 3px solid #dee2e6;
+}
+
+.nav-item {
+  color: #fff;
+}
+.nav-item .active {
+  cursor: pointer;
+}
+
+/* override bootstrap styles */
+.tab-content .ab-tabs-case .nav-item .active {
+  color: #495057;
+}
+.nav-item .sidebar-tab.active {
+  background: #00457b;
+  border-color: #00457b;
+  color: #fff;
+}
+
+/**
+ * IE Scrollbar hack
+ * For strange ui when
+ * you have overlapping
+ * Scrollable elements
+ */
+#productsHolder.layer-modal-open .simplebar-scroll-content,
+#productsHolder.layer-modal-open .simplebar-content {
+  overflow: hidden;
+  width: 100%;
+}
+
+#productsHolder footer {
+  padding: 5px;
+  width: initial;
+}
+footer .product-buttons {
+  padding: 5px;
+  height: 37px;
+  width: initial;
+}
+footer .layers-add {
+  position: absolute;
+  left: 5px;
+}
+footer .compare-toggle-button {
+  position: absolute;
+  right: 5px;
+  border-bottom: none;
+}
+.layer-group-case {
+  overflow: hidden;
+}
+.wv-ab-mode-selection-case {
+  margin: 5px;
+  color: #fff;
+}
+.wv-ab-mode-selection-case .compare-button {
+  background: #222;
+}
+
+.wv-ab-mode-selection-case .compare-button.disabled {
+  background-color: #01457b;
+  opacity: 1;
+}
+.wv-ab-mode-selection-case > div {
+  margin-left: 10px;
+}
+.wv-ab-mode-selection-case > div,
+.wv-ab-mode-selection-case h3 {
+  display: inline-block;
+}
+
+#productsHolder footer p {
+  color: #ccc;
+  margin: 3px 0 8px;
+  line-height: 1.4em;
+}
+
+#productsHolder footer .action {
+  display: block;
+  border-color: transparent;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 0;
+  background: #d54e21;
+  background-image: none;
+  margin-right: 5px;
+  font-weight: 700;
+  padding: 0.5em 1em;
+  line-height: normal;
+}
+
+#productsHolder footer .action:hover {
+  color: #333;
+  background: #ccc;
+}
+
+#productsHolder footer .action.ui-button-disabled {
+  background-color: #000;
+  color: #bebebe;
+  opacity: 1;
+  border: 1px solid #666;
+}
+
+#productsHolder footer .action.ui-state-hover {
+  color: #333;
+}
+
+#productsHolder footer .action.ui-state-focus {
+  background: #d54e21;
+  background-image: none;
+}
+
+/* perfect scrollbars */
+#productsHolder .ps__scrollbar-y-rail {
+  background-color: transparent;
+  margin-top: 5px;
+}
+
+#productsHolder .ps__scrollbar-y {
+  background: #ccc;
+}

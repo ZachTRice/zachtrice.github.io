@@ -1,0 +1,604 @@
+*:focus,
+button:focus {
+  outline: 0;
+}
+
+#timeline {
+  left: 0;
+}
+
+.timeline-inner {
+  position: absolute;
+  border: 1px solid #333;
+  background: rgb(40, 40, 40);
+  background: rgba(40, 40, 40, 0.9);
+  border-radius: 5px;
+  display: flex;
+  flex-flow: row nowrap;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 67px;
+  bottom: 10px;
+}
+
+#timeline-footer text {
+  font: 400 12px/125% 'Roboto Mono', monospace;
+  text-align: start;
+  letter-spacing: 0;
+  word-spacing: 0;
+  -webkit-writing-mode: lr-tb;
+  -ms-writing-mode: lr-tb;
+  writing-mode: lr-tb;
+  text-anchor: start;
+  fill-opacity: 1;
+  stroke: none;
+}
+
+.x.axis .tick {
+  cursor: pointer;
+}
+
+.x.axis .tick text {
+  fill: #fff;
+  text-transform: uppercase;
+}
+
+.x.axis > .tick circle {
+  fill: #fff;
+}
+
+.x.axis > g.tick rect {
+  fill: #e2e2e2;
+  fill-opacity: 0;
+}
+
+.x.axis > g.tick rect.boundarytick-background.bg-hover,
+.x.axis > g.tick:hover rect.boundarytick-background {
+  fill: #fff;
+  fill-opacity: 1;
+}
+
+.x.axis > g.tick.tick-labeled-disabled:hover rect.boundarytick-background {
+  fill-opacity: 0;
+}
+
+.x.axis > g.tick.tick-labeled-disabled {
+  cursor: default;
+}
+
+.x.axis > g.tick.label-only text {
+  cursor: default;
+}
+
+.x.axis > g.tick rect.normaltick-background:hover {
+  fill-opacity: 0.3;
+  fill: #fff;
+}
+
+.x.axis > g.tick text.hover-tick-label {
+  fill: #1a1a1a;
+  pointer-events: none;
+}
+
+.x.axis > g.tick > text > .sub-label {
+  fill: #555;
+}
+
+.x.axis > g.tick:hover > text > .sub-label {
+  fill: #1a1a1a;
+}
+
+.x.axis > .tick > line {
+  fill: none;
+  stroke: #9b9b9b;
+  stroke-width: 1;
+  stroke-linecap: butt;
+  stroke-linejoin: miter;
+  stroke-miterlimit: 4;
+  stroke-opacity: 1;
+  stroke-dasharray: 2, 4;
+  stroke-dashoffset: 0;
+}
+
+.x.axis > .tick-labeled > line {
+  stroke-width: 1;
+  stroke-dasharray: none;
+  stroke: #fff;
+  stroke-linecap: butt;
+  stroke-linejoin: miter;
+  stroke-miterlimit: 4;
+}
+
+.x.axis > .tick > line.tick-hour,
+.x.axis > .tick > line.tick-week {
+  stroke: #cfcfcf;
+  stroke-width: 1;
+  stroke-dasharray: 0;
+}
+
+.x.axis > .tick > line.tick-hour {
+  stroke-width: 2;
+}
+
+g.plot rect.data-bar {
+  fill: #4e5e87;
+  stroke: transparent;
+  stroke-width: 1px;
+  pointer-events: none;
+}
+
+g.plot rect.data-bar-hovered {
+  stroke: #999;
+}
+
+g.plot rect.data-bar-invisible {
+  fill: #777;
+  fill-opacity: 0.5;
+}
+
+#timeline-header {
+  margin-top: 2px;
+  min-width: 310px;
+  display: inline-block;
+}
+
+#timeline-header.subdaily {
+  width: 404px;
+}
+
+#timeline-header .timeline-zoom,
+#timeline-header .input-wrapper-hour,
+#timeline-header .input-time-divider,
+#timeline-header .input-wrapper-minute,
+#timeline-header .input-time-zmark,
+#timeline-header .zoom-minutes {
+  display: none;
+}
+
+#timeline-header.subdaily .zoom-minutes {
+  display: block;
+}
+
+#timeline-header.subdaily .timeline-zoom,
+#timeline-header.subdaily .input-wrapper-hour,
+#timeline-header.subdaily .input-time-divider,
+#timeline-header.subdaily .input-wrapper-minute,
+#timeline-header.subdaily .input-time-zmark {
+  display: inline-block;
+}
+
+#timeline-header .input-wrapper {
+  background: transparent;
+  border: 1px solid transparent;
+  vertical-align: top;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  margin: 0 2px;
+}
+
+#timeline-header .input-wrapper-year {
+  max-width: 62px;
+}
+
+#timeline-header .input-wrapper-month {
+  max-width: 46px;
+}
+
+#timeline-header .input-wrapper-day {
+  max-width: 32px;
+}
+
+#timeline-header .input-wrapper-hour,
+#timeline-header .input-wrapper-minute {
+  width: 32px;
+}
+
+#timeline-header .input-wrapper-hour {
+  margin-left: 8px;
+}
+
+#timeline-header input {
+  width: 100%;
+  height: 40px;
+  color: #fff;
+  opacity: 1;
+  font-size: 24px;
+  background: transparent;
+  border: 0;
+  font-family: 'Roboto Mono', monospace;
+  line-height: 1.2em;
+  vertical-align: baseline;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  padding: 0;
+}
+
+#timeline-header .input-wrapper:hover {
+  border-color: #666;
+}
+
+#timeline-header .input-wrapper:hover .date-arrows {
+  visibility: visible;
+}
+
+#timeline-header .input-wrapper:hover .date-arrows svg path {
+  fill: #888;
+}
+
+#timeline-header .input-wrapper.selected {
+  border-color: #fff;
+}
+
+#timeline-header .input-wrapper.selected .date-arrows svg path {
+  fill: #fff;
+}
+
+#timeline-header div {
+  display: inline-block;
+  vertical-align: top;
+}
+
+#timeline-header .input-time-divider {
+  font-family: 'Roboto Mono', monospace;
+  color: #fff;
+  font-size: 24px;
+  width: 13px;
+  margin-top: 23px;
+}
+
+#timeline-header .input-time-zmark {
+  font-family: 'Roboto Mono', monospace;
+  color: #fff;
+  font-size: 24px;
+  margin-top: 25px;
+}
+
+#zoom-buttons-group {
+  position: relative;
+  width: 86px;
+}
+
+.button-action-group,
+.date-arrows {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.button-action-group {
+  height: 60px;
+  width: 40px;
+  vertical-align: middle;
+  position: relative;
+}
+
+#timeline-header .button-action-group svg path {
+  fill: #fff;
+}
+
+#timeline-header .date-arrows-wrapper {
+  vertical-align: middle;
+  visibility: hidden;
+  display: inline-block;
+}
+
+#timeline-header .date-arrows {
+  display: block;
+  height: 10px;
+}
+
+#timeline-header .date-arrows svg {
+  vertical-align: top;
+  display: block;
+  margin: 0 auto;
+}
+
+#timeline-header .date-arrows svg path {
+  fill: #444;
+}
+
+#timeline-header .input-wrapper:hover .date-arrows:hover svg path {
+  fill: #1a1a1a;
+}
+
+#timeline-header .date-arrow-down {
+  -webkit-transform: scaleY(-1);
+  transform: scaleY(-1);
+  -webkit-filter: FlipV;
+  filter: FlipV;
+  -ms-filter: 'FlipV';
+}
+
+#timeline-header .date-arrows:hover,
+#timeline-header > .button-action-group:hover,
+#timeline-header #zoom-buttons-group .button-action-group:hover {
+  background-color: #fff;
+  cursor: pointer;
+}
+
+#timeline-header > .button-action-group .button-disabled:hover,
+#timeline-header #zoom-buttons-group .button-disabled:hover {
+  background-color: transparent;
+  cursor: default;
+}
+
+#timeline-header .button-action-group svg {
+  position: absolute;
+  top: 50%;
+  margin-top: -15px;
+  left: 50%;
+  margin-left: -12px;
+}
+
+#timeline-header #left-arrow-group {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+#timeline-header #left-arrow-group svg {
+  -webkit-filter: FlipH;
+  filter: FlipH;
+  -ms-filter: 'FlipH';
+}
+
+#timeline-header > .button-action-group:hover .arrow,
+#timeline-header #zoom-buttons-group .button-action-group:hover .arrow {
+  fill: #1a1a1a;
+  fill-opacity: 1;
+  stroke: none;
+}
+
+#timeline-header > .button-action-group.button-disabled .arrow,
+#timeline-header #zoom-buttons-group .button-disabled .arrow {
+  fill: #333;
+}
+
+#timeline-header > .button-action-group.button-disabled:hover .arrow,
+#timeline-header #zoom-buttons-group .button-disabled:hover .arrow {
+  fill: #333;
+}
+
+#timeline-header .animate-button {
+  margin-top: 10px;
+  height: 40px;
+  width: 40px;
+}
+#timeline-header .animate-button .wv-animate {
+  color: #fff;
+  font-size: 2.5em;
+  margin: 5px 0 0 2px;
+}
+
+#timeline-header .animate-button:hover .wv-animate {
+  color: #1a1a1a;
+}
+
+#timeline-header .animate-button.wv-disabled-button {
+  cursor: auto;
+  pointer-events: none;
+}
+
+#timeline-header .animate-button.wv-disabled-button .wv-animate {
+  opacity: 0.5;
+}
+
+#timeline-header,
+#timeline-footer {
+  float: left;
+}
+
+#timeline-footer {
+  border-left: 1px solid #666;
+  border-right: 1px solid #666;
+}
+
+#timeline-footer svg {
+  overflow: visible;
+}
+
+#wv-rangeselector-case > .wv-timeline-range-selector {
+  overflow: visible;
+}
+
+#timeline-footer svg > g {
+  visibility: visible;
+}
+
+/* Timeline svg classes */
+.x.axis line,
+.x.axis path {
+  fill: none;
+  stroke: #fff;
+  shape-rendering: crispEdges;
+}
+
+.y.axis line,
+.y.axis path {
+  fill: none;
+  stroke: none;
+}
+
+.x.axis path {
+  display: none;
+}
+
+.x.axis .selection {
+  display: block;
+  stroke: #4682b4;
+}
+
+#timeline-header .timeline-zoom {
+  display: block;
+  width: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 4px;
+  background-color: rgba(40, 40, 40, 0.9);
+  border-radius: 3px;
+}
+
+#timeline-header #zoom-btn-container {
+  display: block;
+}
+
+#zoom-btn-container .wv-tooltip {
+  display: none;
+  position: absolute;
+  bottom: 100%;
+  border-bottom: 8px solid transparent;
+  width: 100%;
+  z-index: 10;
+}
+
+#zoom-btn-container .wv-tooltip::after {
+  position: absolute;
+  top: 100%;
+  left: 15%;
+  content: '';
+  border-top: 5px solid #000;
+  border-top: 5px solid rgba(51, 51, 51, 0.9);
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+}
+
+.zoom-btn-active {
+  width: 100%;
+  color: #ccc;
+  font-size: 12px;
+  line-height: 14px;
+  display: block;
+  clear: both;
+  cursor: pointer;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+  margin-top: -2px;
+}
+
+.zoom-btn-active:hover {
+  background-color: #fff;
+  color: #1a1a1a;
+}
+
+.timeline-zoom .zoom-btn {
+  display: block;
+  clear: both;
+  cursor: pointer;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ccc;
+  padding: 2px 0;
+}
+
+.timeline-zoom .zoom-btn:hover {
+  background-color: #fff;
+  color: #1a1a1a;
+}
+
+#timeline-hide {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 64px;
+  width: 20px;
+  cursor: pointer;
+  border-left: 1px solid #1a1a1a;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+#timeline-hide:hover {
+  background-color: #fff;
+}
+
+#guitarpick {
+  cursor: pointer;
+  -webkit-clip-path: url('#guitarpick-boundary');
+  clip-path: url('#guitarpick-boundary');
+}
+
+#guitarpick path {
+  fill: #ccc;
+  fill-opacity: 1;
+  stroke: #515151;
+  stroke-width: 1;
+  stroke-opacity: 1;
+}
+
+#guitarpick rect {
+  fill: #515151;
+  fill-opacity: 1;
+  stroke: none;
+}
+
+#guitarpick.pick-clicked path,
+#guitarpick:hover path {
+  fill: #5e676f;
+  stroke: #999;
+}
+
+#guitarpick.pick-clicked rect,
+#guitarpick:hover rect,
+#guitarpick:hover {
+  fill: #999;
+}
+
+#timeline-hide .hamburger {
+  vertical-align: middle;
+  display: block;
+  margin: 26px auto 0;
+}
+
+#timeline-hide .hamburger path {
+  fill: #fff;
+}
+
+#timeline-hide:hover .hamburger path {
+  fill: #1a1a1a;
+}
+#timeline-footer .ab-group-case text {
+  font-size: 20px;
+}
+.ab-group-case {
+  display: none;
+  cursor: pointer;
+}
+.ab-group-case-active {
+  fill: #fff;
+}
+.ab-group-case polygon,
+.ab-group-case path,
+.ab-group-case rect {
+  fill: #808080;
+  opacity: 0.7;
+}
+.ab-group-case-active path {
+  stroke: #515151;
+  stroke-width: 1;
+  stroke-opacity: 1;
+}
+.ab-group-case-active polygon,
+.ab-group-case-active path,
+.ab-group-case-active rect {
+  fill: #fff;
+  opacity: 1;
+  pointer-events: initial;
+}
+.ab-group-case text {
+  fill: #fff;
+  pointer-events: none;
+}
+.ab-group-case-active text {
+  fill: #000;
+}
+.ab-active .ab-group-case {
+  display: block;
+}
+.ab-active #guitarpick {
+  opacity: 0;
+}
