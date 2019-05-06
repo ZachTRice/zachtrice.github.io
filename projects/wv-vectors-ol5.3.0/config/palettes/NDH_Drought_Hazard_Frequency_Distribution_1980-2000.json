@@ -1,0 +1,155 @@
+{
+  "maps": [
+    {
+      "title": "Drought Hazard",
+      "type": "discrete",
+      "legend": {
+        "tooltips": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          ">= 20"
+        ],
+        "title": "Drought Hazard",
+        "colors": [
+          "fefefeff",
+          "fdf5e4ff",
+          "fdeccbff",
+          "fde4b2ff",
+          "fdd88dff",
+          "fdc26bff",
+          "fdad49ff",
+          "fd9828ff",
+          "f38921ff",
+          "ea7b1aff",
+          "e16c13ff",
+          "d85e0dff",
+          "d0590bff",
+          "c9540aff",
+          "c24f09ff",
+          "bb4a08ff",
+          "b44607ff",
+          "ad4106ff",
+          "a63c05ff",
+          "9f3704ff",
+          "983303ff"
+        ],
+        "maxLabel": ">= 20",
+        "minLabel": "0",
+        "type": "discrete",
+        "id": "NDH_Drought_Hazard_Frequency_Distribution_1980-2000_0_legend"
+      },
+      "entries": {
+        "values": [
+          [
+            0.0
+          ],
+          [
+            1.0
+          ],
+          [
+            2.0
+          ],
+          [
+            3.0
+          ],
+          [
+            4.0
+          ],
+          [
+            5.0
+          ],
+          [
+            6.0
+          ],
+          [
+            7.0
+          ],
+          [
+            8.0
+          ],
+          [
+            9.0
+          ],
+          [
+            10.0
+          ],
+          [
+            11.0
+          ],
+          [
+            12.0
+          ],
+          [
+            13.0
+          ],
+          [
+            14.0
+          ],
+          [
+            15.0
+          ],
+          [
+            16.0
+          ],
+          [
+            17.0
+          ],
+          [
+            18.0
+          ],
+          [
+            19.0
+          ],
+          [
+            20.0,
+            255.0
+          ]
+        ],
+        "colors": [
+          "fefefeff",
+          "fdf5e4ff",
+          "fdeccbff",
+          "fde4b2ff",
+          "fdd88dff",
+          "fdc26bff",
+          "fdad49ff",
+          "fd9828ff",
+          "f38921ff",
+          "ea7b1aff",
+          "e16c13ff",
+          "d85e0dff",
+          "d0590bff",
+          "c9540aff",
+          "c24f09ff",
+          "bb4a08ff",
+          "b44607ff",
+          "ad4106ff",
+          "a63c05ff",
+          "9f3704ff",
+          "983303ff"
+        ],
+        "type": "discrete",
+        "title": "Drought Hazard"
+      }
+    }
+  ],
+  "id": "NDH_Drought_Hazard_Frequency_Distribution_1980-2000"
+}

@@ -1,0 +1,27 @@
+{
+  "maps": [
+    {
+      "title": "Classifications",
+      "type": "classification",
+      "legend": {
+        "tooltips": [
+          "Snow"
+        ],
+        "colors": [
+          "ff6464ff"
+        ],
+        "type": "classification",
+        "id": "MODIS_Aqua_Snow_Extent_8Day_0_legend",
+        "title": "Classifications"
+      },
+      "entries": {
+        "colors": [
+          "ff6464ff"
+        ],
+        "type": "classification",
+        "title": "Classifications"
+      }
+    }
+  ],
+  "id": "MODIS_Aqua_Snow_Extent_8Day"
+}

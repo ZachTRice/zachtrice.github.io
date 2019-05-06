@@ -1,0 +1,27 @@
+{
+  "maps": [
+    {
+      "title": "GCOM-C Orbital Track",
+      "type": "classification",
+      "legend": {
+        "tooltips": [
+          "Acquisition Time (UTC)"
+        ],
+        "colors": [
+          "1972f3ff"
+        ],
+        "type": "classification",
+        "id": "OrbitTracks_GCOM-C_Descending_0_legend",
+        "title": "GCOM-C Orbital Track"
+      },
+      "entries": {
+        "colors": [
+          "1972f3ff"
+        ],
+        "type": "classification",
+        "title": "GCOM-C Orbital Track"
+      }
+    }
+  ],
+  "id": "OrbitTracks_GCOM-C_Descending"
+}

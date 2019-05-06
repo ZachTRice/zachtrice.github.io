@@ -1,0 +1,106 @@
+{
+  "maps": [
+    {
+      "title": "Mammal Endangered Species",
+      "type": "discrete",
+      "legend": {
+        "tooltips": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13"
+        ],
+        "title": "Mammal Endangered Species",
+        "colors": [
+          "b3ffb3ff",
+          "a4f4a4ff",
+          "95e995ff",
+          "86df86ff",
+          "77d477ff",
+          "68ca68ff",
+          "59bf59ff",
+          "4ab44aff",
+          "3baa3bff",
+          "2c9f2cff",
+          "1d951dff",
+          "0e8a0eff",
+          "008000ff"
+        ],
+        "maxLabel": "13",
+        "minLabel": "1",
+        "type": "discrete",
+        "id": "Mammal_Richness_Grids_Endangered_Species_2013_0_legend"
+      },
+      "entries": {
+        "values": [
+          [
+            1.0
+          ],
+          [
+            2.0
+          ],
+          [
+            3.0
+          ],
+          [
+            4.0
+          ],
+          [
+            5.0
+          ],
+          [
+            6.0
+          ],
+          [
+            7.0
+          ],
+          [
+            8.0
+          ],
+          [
+            9.0
+          ],
+          [
+            10.0
+          ],
+          [
+            11.0
+          ],
+          [
+            12.0
+          ],
+          [
+            13.0
+          ]
+        ],
+        "colors": [
+          "b3ffb3ff",
+          "a4f4a4ff",
+          "95e995ff",
+          "86df86ff",
+          "77d477ff",
+          "68ca68ff",
+          "59bf59ff",
+          "4ab44aff",
+          "3baa3bff",
+          "2c9f2cff",
+          "1d951dff",
+          "0e8a0eff",
+          "008000ff"
+        ],
+        "type": "discrete",
+        "title": "Mammal Endangered Species"
+      }
+    }
+  ],
+  "id": "Mammal_Richness_Grids_Endangered_Species_2013"
+}

@@ -1,0 +1,56 @@
+{
+  "maps": [
+    {
+      "title": "Volcano Frequency",
+      "type": "discrete",
+      "legend": {
+        "tooltips": [
+          "1 - 10",
+          "11 - 30",
+          "31 - 60",
+          "61 - 130"
+        ],
+        "title": "Volcano Frequency",
+        "colors": [
+          "ffffb2ff",
+          "fecc5cff",
+          "fd8d3cff",
+          "e31a1cff"
+        ],
+        "maxLabel": "130",
+        "minLabel": "1",
+        "type": "discrete",
+        "id": "NDH_Volcano_Hazard_Frequency_Distribution_1979-2000_0_legend"
+      },
+      "entries": {
+        "values": [
+          [
+            1.0,
+            10.0
+          ],
+          [
+            11.0,
+            30.0
+          ],
+          [
+            31.0,
+            60.0
+          ],
+          [
+            61.0,
+            130.0
+          ]
+        ],
+        "colors": [
+          "ffffb2ff",
+          "fecc5cff",
+          "fd8d3cff",
+          "e31a1cff"
+        ],
+        "type": "discrete",
+        "title": "Volcano Frequency"
+      }
+    }
+  ],
+  "id": "NDH_Volcano_Hazard_Frequency_Distribution_1979-2000"
+}

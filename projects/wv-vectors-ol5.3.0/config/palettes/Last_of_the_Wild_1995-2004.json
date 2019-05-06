@@ -1,0 +1,74 @@
+{
+  "maps": [
+    {
+      "title": "Wild Areas Mapping",
+      "type": "classification",
+      "legend": {
+        "tooltips": [
+          "Tropical and Subtropical Moist Broadleaf Forests",
+          "Tropical and Subtropical Dry Broadleaf Forests",
+          "Tropical and Subtropical Coniferous Forests",
+          "Temperate Broadleaf and Mixed Forests",
+          "Temperate Coniferous Forests",
+          "Boreal Forests/Taiga",
+          "Tropical and subtropical grasslands, savannas, and shrublands",
+          "Temperate Grasslands, Savannas, and Shrublands",
+          "Flooded Grasslands and Savannas",
+          "Montane Grasslands and Shrublands",
+          "Tundra",
+          "Mediterranean Forests, Woodlands, and Scrub",
+          "Deserts and Xeric Shrublands",
+          "Mangroves",
+          "Lakes",
+          "Rock and Ice"
+        ],
+        "title": "Wild Areas Mapping",
+        "colors": [
+          "38a800ff",
+          "2ca25fff",
+          "66c2a4ff",
+          "addd8eff",
+          "d9f0a3ff",
+          "ffffccff",
+          "ffff00ff",
+          "ffed6fff",
+          "8dd3c7ff",
+          "ccebc5ff",
+          "d9d9d9ff",
+          "fb8072ff",
+          "fccde5ff",
+          "bc80bdff",
+          "80b1d3ff",
+          "ffffffff"
+        ],
+        "maxLabel": "Rock and Ice",
+        "minLabel": "Tropical and Subtropical Moist Broadleaf Forests",
+        "type": "classification",
+        "id": "Last_of_the_Wild_1995-2004_0_legend"
+      },
+      "entries": {
+        "colors": [
+          "38a800ff",
+          "2ca25fff",
+          "66c2a4ff",
+          "addd8eff",
+          "d9f0a3ff",
+          "ffffccff",
+          "ffff00ff",
+          "ffed6fff",
+          "8dd3c7ff",
+          "ccebc5ff",
+          "d9d9d9ff",
+          "fb8072ff",
+          "fccde5ff",
+          "bc80bdff",
+          "80b1d3ff",
+          "ffffffff"
+        ],
+        "type": "classification",
+        "title": "Wild Areas Mapping"
+      }
+    }
+  ],
+  "id": "Last_of_the_Wild_1995-2004"
+}

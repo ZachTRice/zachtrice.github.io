@@ -1,0 +1,118 @@
+{
+  "maps": [
+    {
+      "title": "Amphibian Endangered Species",
+      "type": "discrete",
+      "legend": {
+        "tooltips": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15"
+        ],
+        "title": "Amphibian Endangered Species",
+        "colors": [
+          "b3ffb3ff",
+          "a6f5a6ff",
+          "99ec99ff",
+          "8ce38cff",
+          "7fda7fff",
+          "73d173ff",
+          "66c866ff",
+          "59bf59ff",
+          "4cb64cff",
+          "3fad3fff",
+          "33a433ff",
+          "269b26ff",
+          "199219ff",
+          "0c890cff",
+          "008000ff"
+        ],
+        "maxLabel": "15",
+        "minLabel": "1",
+        "type": "discrete",
+        "id": "Amphibian_Richness_Endangered_Species_2013_0_legend"
+      },
+      "entries": {
+        "values": [
+          [
+            1.0
+          ],
+          [
+            2.0
+          ],
+          [
+            3.0
+          ],
+          [
+            4.0
+          ],
+          [
+            5.0
+          ],
+          [
+            6.0
+          ],
+          [
+            7.0
+          ],
+          [
+            8.0
+          ],
+          [
+            9.0
+          ],
+          [
+            10.0
+          ],
+          [
+            11.0
+          ],
+          [
+            12.0
+          ],
+          [
+            13.0
+          ],
+          [
+            14.0
+          ],
+          [
+            15.0
+          ]
+        ],
+        "colors": [
+          "b3ffb3ff",
+          "a6f5a6ff",
+          "99ec99ff",
+          "8ce38cff",
+          "7fda7fff",
+          "73d173ff",
+          "66c866ff",
+          "59bf59ff",
+          "4cb64cff",
+          "3fad3fff",
+          "33a433ff",
+          "269b26ff",
+          "199219ff",
+          "0c890cff",
+          "008000ff"
+        ],
+        "type": "discrete",
+        "title": "Amphibian Endangered Species"
+      }
+    }
+  ],
+  "id": "Amphibian_Richness_Endangered_Species_2013"
+}

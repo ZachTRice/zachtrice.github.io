@@ -1,0 +1,67 @@
+.wv-toolbar {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  z-index: 1;
+  border-radius: 0;
+}
+
+.wv-toolbar .wv-toolbar-button {
+  font-size: 14.3px;
+  display: inline-block;
+  margin: 0 0 0 4px;
+  background: rgba(40, 40, 40, 0.85);
+  border: 1px solid #333;
+  padding: 5.72px 14.3px;
+  border-radius: 5px;
+}
+.wv-toolbar-button:focus {
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+.wv-toolbar .wv-toolbar-button:hover {
+  background-color: #fff;
+  color: #1a1a1a;
+}
+
+/* toolbar modal styles */
+.toolbar-list-modal,
+.toolbar-list-modal .modal-content {
+  width: 150px;
+}
+.toolbar_info .modal-content {
+  width: 156px;
+}
+.toolbar-list-modal .modal-body {
+  padding: 0;
+}
+.toolbar-snapshot-modal .modal-body {
+  padding: 5px 10px;
+}
+.toolbar-medium-modal,
+.toolbar-medium-modal .modal-content {
+  width: 230px;
+}
+.toolbar-share-modal .modal-content {
+  width: 300px;
+}
+.toolbar-medium-modal .modal-header {
+  border-bottom: none;
+  padding: 5px 8px 0;
+}
+.toolbar-modal.modal-dialog {
+  position: absolute;
+  top: 33px;
+}
+.toolbar_modal_outer .modal.fade .modal-dialog {
+  -webkit-transform: translate(0, 25%);
+  transform: translate(0, 25%);
+  transition: transform 0.3s ease-out, -webkit-transform  0.3s ease-out;
+}
+.toolbar_modal_outer .modal.fade.show .modal-dialog {
+  -webkit-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+.toolbar_projection .modal-backdrop {
+  opacity: 0;
+}

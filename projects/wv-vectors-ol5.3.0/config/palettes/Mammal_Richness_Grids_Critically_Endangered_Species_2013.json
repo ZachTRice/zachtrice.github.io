@@ -1,0 +1,46 @@
+{
+  "maps": [
+    {
+      "title": "Mammal Critically Endangered Species",
+      "type": "discrete",
+      "legend": {
+        "tooltips": [
+          "1",
+          "2",
+          "3"
+        ],
+        "title": "Mammal Critically Endangered Species",
+        "colors": [
+          "b3ffb3ff",
+          "59bf59ff",
+          "008000ff"
+        ],
+        "maxLabel": "3",
+        "minLabel": "1",
+        "type": "discrete",
+        "id": "Mammal_Richness_Grids_Critically_Endangered_Species_2013_0_legend"
+      },
+      "entries": {
+        "values": [
+          [
+            1.0
+          ],
+          [
+            2.0
+          ],
+          [
+            3.0
+          ]
+        ],
+        "colors": [
+          "b3ffb3ff",
+          "59bf59ff",
+          "008000ff"
+        ],
+        "type": "discrete",
+        "title": "Mammal Critically Endangered Species"
+      }
+    }
+  ],
+  "id": "Mammal_Richness_Grids_Critically_Endangered_Species_2013"
+}

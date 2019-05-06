@@ -1,0 +1,32 @@
+{
+  "maps": [
+    {
+      "title": "Urban/Rural Extents",
+      "type": "classification",
+      "legend": {
+        "tooltips": [
+          "Rural",
+          "Urban"
+        ],
+        "title": "Urban/Rural Extents",
+        "colors": [
+          "ff9999ff",
+          "990000ff"
+        ],
+        "maxLabel": "255",
+        "minLabel": "1",
+        "type": "classification",
+        "id": "LECZ_Urban_Rural_Extents_Below_10m_0_legend"
+      },
+      "entries": {
+        "colors": [
+          "ff9999ff",
+          "990000ff"
+        ],
+        "type": "classification",
+        "title": "Urban/Rural Extents"
+      }
+    }
+  ],
+  "id": "LECZ_Urban_Rural_Extents_Below_10m"
+}
