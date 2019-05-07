@@ -1,0 +1,70 @@
+{
+    "maps": [
+        {
+            "title": "Land Surface Temperature",
+            "type": "continuous",
+            "legend": {
+                "tooltips": [
+                    "< 5 \u00b0C",
+                    "5 - 10 \u00b0C",
+                    "10 - 15 \u00b0C",
+                    "15 - 20 \u00b0C",
+                    "20 - 25 \u00b0C",
+                    ">= 25 \u00b0C"
+                ],
+                "title": "Land Surface Temperature",
+                "colors": [
+                    "662e9eff",
+                    "455ed9ff",
+                    "89c2faff",
+                    "fccb35ff",
+                    "ff7f00ff",
+                    "d63a31ff"
+                ],
+                "maxLabel": ">= 25 \u00b0C",
+                "minLabel": "< 5 \u00b0C",
+                "type": "continuous",
+                "id": "UHI_Avg_Summer_Day_Max_Land_Surface_Temp_2013_0_legend"
+            },
+            "entries": {
+                "values": [
+                    [
+                        2.2250738585072014e-308,
+                        5.0
+                    ],
+                    [
+                        5.0,
+                        10.0
+                    ],
+                    [
+                        10.0,
+                        15.0
+                    ],
+                    [
+                        15.0,
+                        20.0
+                    ],
+                    [
+                        20.0,
+                        25.0
+                    ],
+                    [
+                        25.0,
+                        1.7976931348623157e+308
+                    ]
+                ],
+                "colors": [
+                    "662e9eff",
+                    "455ed9ff",
+                    "89c2faff",
+                    "fccb35ff",
+                    "ff7f00ff",
+                    "d63a31ff"
+                ],
+                "type": "continuous",
+                "title": "Land Surface Temperature"
+            }
+        }
+    ],
+    "id": "UHI_Avg_Summer_Day_Max_Land_Surface_Temp_2013"
+}

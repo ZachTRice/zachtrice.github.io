@@ -1,0 +1,51 @@
+{
+    "maps": [
+        {
+            "title": "Cloud Confidences",
+            "type": "classification",
+            "legend": {
+                "tooltips": [
+                    "Single Layer Cloud",
+                    "Lowest Confidence Multi-Layer Cloud",
+                    "+1 Confidence Multi-Layer Cloud",
+                    "+2 Confidence Multi-Layer Cloud",
+                    "+3 Confidence Multi-Layer Cloud",
+                    "+4 Confidence Multi-Layer Cloud",
+                    "+5 Confidence Multi-Layer Cloud",
+                    "+6 Confidence Multi-Layer Cloud",
+                    "Highest Confidence Multi-Layer Cloud"
+                ],
+                "colors": [
+                    "000064ff",
+                    "0088eeff",
+                    "bcd2feff",
+                    "c0c0c1ff",
+                    "f0be40ff",
+                    "782620ff",
+                    "7a5a03ff",
+                    "64ff00ff",
+                    "336600ff"
+                ],
+                "type": "classification",
+                "id": "MODIS_Terra_Cloud_Multi_Layer_Flag_0_legend",
+                "title": "Cloud Confidences"
+            },
+            "entries": {
+                "colors": [
+                    "000064ff",
+                    "0088eeff",
+                    "bcd2feff",
+                    "c0c0c1ff",
+                    "f0be40ff",
+                    "782620ff",
+                    "7a5a03ff",
+                    "64ff00ff",
+                    "336600ff"
+                ],
+                "type": "classification",
+                "title": "Cloud Confidences"
+            }
+        }
+    ],
+    "id": "MODIS_Terra_Cloud_Multi_Layer_Flag"
+}

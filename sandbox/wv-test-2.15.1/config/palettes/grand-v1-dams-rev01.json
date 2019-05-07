@@ -1,0 +1,51 @@
+{
+    "maps": [
+        {
+            "title": "Dams",
+            "type": "classification",
+            "legend": {
+                "tooltips": [
+                    "Not Classified",
+                    "Fisheries",
+                    "Flood Control",
+                    "Hydroelectricity",
+                    "Irrigation",
+                    "Navigation",
+                    "Other",
+                    "Recreation",
+                    "Water Supply"
+                ],
+                "colors": [
+                    "ffffffff",
+                    "98e600ff",
+                    "a80000ff",
+                    "e6e600ff",
+                    "897044ff",
+                    "e69800ff",
+                    "ffbee8ff",
+                    "8400a8ff",
+                    "267300ff"
+                ],
+                "type": "classification",
+                "id": "grand-v1-dams-rev01_0_legend",
+                "title": "Dams"
+            },
+            "entries": {
+                "colors": [
+                    "ffffffff",
+                    "98e600ff",
+                    "a80000ff",
+                    "e6e600ff",
+                    "897044ff",
+                    "e69800ff",
+                    "ffbee8ff",
+                    "8400a8ff",
+                    "267300ff"
+                ],
+                "type": "classification",
+                "title": "Dams"
+            }
+        }
+    ],
+    "id": "grand-v1-dams-rev01"
+}

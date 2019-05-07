@@ -1,0 +1,33 @@
+{
+    "maps": [
+        {
+            "title": "Cloud Phase Infrared",
+            "type": "classification",
+            "legend": {
+                "tooltips": [
+                    "Liquid Water",
+                    "Ice",
+                    "Uncertain"
+                ],
+                "colors": [
+                    "000064ff",
+                    "bcd2feff",
+                    "f0be40ff"
+                ],
+                "type": "classification",
+                "id": "MODIS_Terra_Cloud_Phase_Infrared_Night_0_legend",
+                "title": "Cloud Phase Infrared"
+            },
+            "entries": {
+                "colors": [
+                    "000064ff",
+                    "bcd2feff",
+                    "f0be40ff"
+                ],
+                "type": "classification",
+                "title": "Cloud Phase Infrared"
+            }
+        }
+    ],
+    "id": "MODIS_Terra_Cloud_Phase_Infrared_Night"
+}

@@ -1,0 +1,33 @@
+{
+    "maps": [
+        {
+            "title": "Quality",
+            "type": "classification",
+            "legend": {
+                "tooltips": [
+                    "Approved",
+                    "Caution",
+                    "Bad"
+                ],
+                "colors": [
+                    "31a131ff",
+                    "d6bb29ff",
+                    "d62d00ff"
+                ],
+                "type": "classification",
+                "id": "SMAP_L1_Passive_Enhanced_Brightness_Temp_Fore_H_RFI_0_legend",
+                "title": "Quality"
+            },
+            "entries": {
+                "colors": [
+                    "31a131ff",
+                    "d6bb29ff",
+                    "d62d00ff"
+                ],
+                "type": "classification",
+                "title": "Quality"
+            }
+        }
+    ],
+    "id": "SMAP_L1_Passive_Enhanced_Brightness_Temp_Fore_H_RFI"
+}

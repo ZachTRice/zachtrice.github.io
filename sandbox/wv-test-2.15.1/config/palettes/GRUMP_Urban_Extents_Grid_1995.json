@@ -1,0 +1,30 @@
+{
+    "maps": [
+        {
+            "title": "Urban/Rural Extents",
+            "type": "classification",
+            "legend": {
+                "tooltips": [
+                    "Rural",
+                    "Urban"
+                ],
+                "colors": [
+                    "bababaff",
+                    "e31a1cff"
+                ],
+                "type": "classification",
+                "id": "GRUMP_Urban_Extents_Grid_1995_0_legend",
+                "title": "Urban/Rural Extents"
+            },
+            "entries": {
+                "colors": [
+                    "bababaff",
+                    "e31a1cff"
+                ],
+                "type": "classification",
+                "title": "Urban/Rural Extents"
+            }
+        }
+    ],
+    "id": "GRUMP_Urban_Extents_Grid_1995"
+}

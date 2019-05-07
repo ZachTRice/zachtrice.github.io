@@ -1,0 +1,105 @@
+{
+    "maps": [
+        {
+            "title": "Man-made Impervious Surface",
+            "type": "continuous",
+            "legend": {
+                "tooltips": [
+                    "0",
+                    "1 \u2013 10",
+                    "11 \u2013 20",
+                    "21 \u2013 30",
+                    "31 \u2013 40",
+                    "41 \u2013 50",
+                    "51 \u2013 60",
+                    "61 \u2013 70",
+                    "71 \u2013 80",
+                    "81 \u2013 90",
+                    "91 \u2013 100"
+                ],
+                "title": "Man-made Impervious Surface",
+                "colors": [
+                    "bee8ffff",
+                    "a1daedff",
+                    "8ac6ebff",
+                    "74b4e8ff",
+                    "5ca3e6ff",
+                    "4292e3ff",
+                    "1f83e0ff",
+                    "226fd4ff",
+                    "2259c7ff",
+                    "1d44b8ff",
+                    "1a32abff"
+                ],
+                "maxLabel": "100",
+                "minLabel": "0",
+                "units": "%",
+                "type": "continuous",
+                "id": "Landsat_Global_Man-made_Impervious_Surface_0_legend"
+            },
+            "entries": {
+                "values": [
+                    [
+                        0.0
+                    ],
+                    [
+                        1.0,
+                        10.0
+                    ],
+                    [
+                        11.0,
+                        20.0
+                    ],
+                    [
+                        21.0,
+                        30.0
+                    ],
+                    [
+                        31.0,
+                        40.0
+                    ],
+                    [
+                        41.0,
+                        50.0
+                    ],
+                    [
+                        51.0,
+                        60.0
+                    ],
+                    [
+                        61.0,
+                        70.0
+                    ],
+                    [
+                        71.0,
+                        80.0
+                    ],
+                    [
+                        81.0,
+                        90.0
+                    ],
+                    [
+                        91.0,
+                        100.0
+                    ]
+                ],
+                "colors": [
+                    "bee8ffff",
+                    "a1daedff",
+                    "8ac6ebff",
+                    "74b4e8ff",
+                    "5ca3e6ff",
+                    "4292e3ff",
+                    "1f83e0ff",
+                    "226fd4ff",
+                    "2259c7ff",
+                    "1d44b8ff",
+                    "1a32abff"
+                ],
+                "type": "continuous",
+                "title": "Man-made Impervious Surface"
+            }
+        }
+    ],
+    "id": "Landsat_Global_Man-made_Impervious_Surface"
+}

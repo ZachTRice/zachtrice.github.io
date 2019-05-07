@@ -1,0 +1,27 @@
+{
+    "maps": [
+        {
+            "title": "Settlements",
+            "type": "classification",
+            "legend": {
+                "tooltips": [
+                    "Settlement"
+                ],
+                "colors": [
+                    "67ec00ff"
+                ],
+                "type": "classification",
+                "id": "grump-v1-settlement-points_0_legend",
+                "title": "Settlements"
+            },
+            "entries": {
+                "colors": [
+                    "67ec00ff"
+                ],
+                "type": "classification",
+                "title": "Settlements"
+            }
+        }
+    ],
+    "id": "grump-v1-settlement-points"
+}

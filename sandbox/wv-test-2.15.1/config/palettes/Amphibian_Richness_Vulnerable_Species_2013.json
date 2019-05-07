@@ -1,0 +1,130 @@
+{
+    "maps": [
+        {
+            "title": "Amphibian Vulnerable Species",
+            "type": "discrete",
+            "legend": {
+                "tooltips": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6",
+                    "7",
+                    "8",
+                    "9",
+                    "10",
+                    "11",
+                    "12",
+                    "13",
+                    "14",
+                    "15",
+                    "16",
+                    "17"
+                ],
+                "title": "Amphibian Vulnerable Species",
+                "colors": [
+                    "b3ffb3ff",
+                    "a7f7a7ff",
+                    "9cef9cff",
+                    "91e791ff",
+                    "86df86ff",
+                    "7bd77bff",
+                    "6fcf6fff",
+                    "64c764ff",
+                    "59bf59ff",
+                    "4eb74eff",
+                    "43af43ff",
+                    "37a737ff",
+                    "2c9f2cff",
+                    "219721ff",
+                    "168f16ff",
+                    "0b870bff",
+                    "008000ff"
+                ],
+                "maxLabel": "17",
+                "minLabel": "1",
+                "type": "discrete",
+                "id": "Amphibian_Richness_Vulnerable_Species_2013_0_legend"
+            },
+            "entries": {
+                "values": [
+                    [
+                        1.0
+                    ],
+                    [
+                        2.0
+                    ],
+                    [
+                        3.0
+                    ],
+                    [
+                        4.0
+                    ],
+                    [
+                        5.0
+                    ],
+                    [
+                        6.0
+                    ],
+                    [
+                        7.0
+                    ],
+                    [
+                        8.0
+                    ],
+                    [
+                        9.0
+                    ],
+                    [
+                        10.0
+                    ],
+                    [
+                        11.0
+                    ],
+                    [
+                        12.0
+                    ],
+                    [
+                        13.0
+                    ],
+                    [
+                        14.0
+                    ],
+                    [
+                        15.0
+                    ],
+                    [
+                        16.0
+                    ],
+                    [
+                        17.0
+                    ]
+                ],
+                "colors": [
+                    "b3ffb3ff",
+                    "a7f7a7ff",
+                    "9cef9cff",
+                    "91e791ff",
+                    "86df86ff",
+                    "7bd77bff",
+                    "6fcf6fff",
+                    "64c764ff",
+                    "59bf59ff",
+                    "4eb74eff",
+                    "43af43ff",
+                    "37a737ff",
+                    "2c9f2cff",
+                    "219721ff",
+                    "168f16ff",
+                    "0b870bff",
+                    "008000ff"
+                ],
+                "type": "discrete",
+                "title": "Amphibian Vulnerable Species"
+            }
+        }
+    ],
+    "id": "Amphibian_Richness_Vulnerable_Species_2013"
+}

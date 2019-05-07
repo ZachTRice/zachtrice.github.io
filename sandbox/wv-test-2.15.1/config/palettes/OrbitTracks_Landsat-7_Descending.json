@@ -1,0 +1,27 @@
+{
+    "maps": [
+        {
+            "title": "Landsat 7 Orbital Track",
+            "type": "classification",
+            "legend": {
+                "tooltips": [
+                    "Acquisition Time (UTC)"
+                ],
+                "colors": [
+                    "66ccccff"
+                ],
+                "type": "classification",
+                "id": "OrbitTracks_Landsat-7_Descending_0_legend",
+                "title": "Landsat 7 Orbital Track"
+            },
+            "entries": {
+                "colors": [
+                    "66ccccff"
+                ],
+                "type": "classification",
+                "title": "Landsat 7 Orbital Track"
+            }
+        }
+    ],
+    "id": "OrbitTracks_Landsat-7_Descending"
+}

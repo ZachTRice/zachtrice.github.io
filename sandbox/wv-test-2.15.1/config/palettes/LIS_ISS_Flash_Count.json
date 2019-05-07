@@ -1,0 +1,149 @@
+{
+    "maps": [
+        {
+            "title": "Flash Count",
+            "type": "discrete",
+            "legend": {
+                "tooltips": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6",
+                    "7",
+                    "8",
+                    "9",
+                    "10",
+                    "11",
+                    "12",
+                    "13",
+                    "14",
+                    "15",
+                    "16",
+                    "17",
+                    "18",
+                    "19",
+                    ">= 20"
+                ],
+                "title": "Flash Count",
+                "colors": [
+                    "5229ccff",
+                    "652bd6ff",
+                    "7227d6ff",
+                    "8728e0ff",
+                    "9624e0ff",
+                    "ac25e8ff",
+                    "bc20e8ff",
+                    "d622f2ff",
+                    "e81df2ff",
+                    "fc1ef4ff",
+                    "fc19e0ff",
+                    "f719c8ff",
+                    "f716b3ff",
+                    "ed1599ff",
+                    "ed1184ff",
+                    "e6106dff",
+                    "e60b58ff",
+                    "db0b42ff",
+                    "db072cff",
+                    "d10618ff"
+                ],
+                "maxLabel": ">= 20",
+                "minLabel": "1",
+                "type": "discrete",
+                "id": "LIS_ISS_Flash_Count_0_legend"
+            },
+            "entries": {
+                "values": [
+                    [
+                        1.0
+                    ],
+                    [
+                        2.0
+                    ],
+                    [
+                        3.0
+                    ],
+                    [
+                        4.0
+                    ],
+                    [
+                        5.0
+                    ],
+                    [
+                        6.0
+                    ],
+                    [
+                        7.0
+                    ],
+                    [
+                        8.0
+                    ],
+                    [
+                        9.0
+                    ],
+                    [
+                        10.0
+                    ],
+                    [
+                        11.0
+                    ],
+                    [
+                        12.0
+                    ],
+                    [
+                        13.0
+                    ],
+                    [
+                        14.0
+                    ],
+                    [
+                        15.0
+                    ],
+                    [
+                        16.0
+                    ],
+                    [
+                        17.0
+                    ],
+                    [
+                        18.0
+                    ],
+                    [
+                        19.0
+                    ],
+                    [
+                        20.0,
+                        1.7976931348623157e+308
+                    ]
+                ],
+                "colors": [
+                    "5229ccff",
+                    "652bd6ff",
+                    "7227d6ff",
+                    "8728e0ff",
+                    "9624e0ff",
+                    "ac25e8ff",
+                    "bc20e8ff",
+                    "d622f2ff",
+                    "e81df2ff",
+                    "fc1ef4ff",
+                    "fc19e0ff",
+                    "f719c8ff",
+                    "f716b3ff",
+                    "ed1599ff",
+                    "ed1184ff",
+                    "e6106dff",
+                    "e60b58ff",
+                    "db0b42ff",
+                    "db072cff",
+                    "d10618ff"
+                ],
+                "type": "discrete",
+                "title": "Flash Count"
+            }
+        }
+    ],
+    "id": "LIS_ISS_Flash_Count"
+}

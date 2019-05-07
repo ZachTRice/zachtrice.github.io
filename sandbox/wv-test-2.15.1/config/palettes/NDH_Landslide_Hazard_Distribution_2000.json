@@ -1,0 +1,50 @@
+{
+    "maps": [
+        {
+            "title": "Landslide Hazard",
+            "type": "classification",
+            "legend": {
+                "tooltips": [
+                    "Negligible to Very Low",
+                    "Low",
+                    "Low to Moderate",
+                    "Moderate",
+                    "Medium",
+                    "Medium to High",
+                    "High",
+                    "Very High"
+                ],
+                "title": "Landslide Hazard",
+                "colors": [
+                    "fefefeff",
+                    "fffeccff",
+                    "ffeda0ff",
+                    "fed976ff",
+                    "feb24cff",
+                    "fd8d3cff",
+                    "fc4e20ff",
+                    "b10026ff"
+                ],
+                "maxLabel": ">= 9",
+                "minLabel": "2",
+                "type": "classification",
+                "id": "NDH_Landslide_Hazard_Distribution_2000_0_legend"
+            },
+            "entries": {
+                "colors": [
+                    "fefefeff",
+                    "fffeccff",
+                    "ffeda0ff",
+                    "fed976ff",
+                    "feb24cff",
+                    "fd8d3cff",
+                    "fc4e20ff",
+                    "b10026ff"
+                ],
+                "type": "classification",
+                "title": "Landslide Hazard"
+            }
+        }
+    ],
+    "id": "NDH_Landslide_Hazard_Distribution_2000"
+}

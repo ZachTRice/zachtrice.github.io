@@ -1,0 +1,27 @@
+{
+    "maps": [
+        {
+            "title": "Reservoirs",
+            "type": "classification",
+            "legend": {
+                "tooltips": [
+                    "Reservoir"
+                ],
+                "colors": [
+                    "004da8ff"
+                ],
+                "type": "classification",
+                "id": "grand-v1-reservoirs-rev01_0_legend",
+                "title": "Reservoirs"
+            },
+            "entries": {
+                "colors": [
+                    "004da8ff"
+                ],
+                "type": "classification",
+                "title": "Reservoirs"
+            }
+        }
+    ],
+    "id": "grand-v1-reservoirs-rev01"
+}

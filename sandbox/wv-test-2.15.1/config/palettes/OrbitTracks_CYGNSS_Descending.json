@@ -1,0 +1,27 @@
+{
+    "maps": [
+        {
+            "title": "CYGNSS Orbital Track",
+            "type": "classification",
+            "legend": {
+                "tooltips": [
+                    "Acquisition Time (UTC)"
+                ],
+                "colors": [
+                    "f8e823ff"
+                ],
+                "type": "classification",
+                "id": "OrbitTracks_CYGNSS_Descending_0_legend",
+                "title": "CYGNSS Orbital Track"
+            },
+            "entries": {
+                "colors": [
+                    "f8e823ff"
+                ],
+                "type": "classification",
+                "title": "CYGNSS Orbital Track"
+            }
+        }
+    ],
+    "id": "OrbitTracks_CYGNSS_Descending"
+}

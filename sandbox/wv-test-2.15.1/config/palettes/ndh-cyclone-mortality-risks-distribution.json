@@ -1,0 +1,33 @@
+{
+    "maps": [
+        {
+            "title": "Cyclone Hazard Mortality Risks",
+            "type": "classification",
+            "legend": {
+                "tooltips": [
+                    "10th - 8th",
+                    "7th - 5th",
+                    "4th - 1st"
+                ],
+                "colors": [
+                    "e34a33ff",
+                    "fdbb84ff",
+                    "fee8c8ff"
+                ],
+                "type": "classification",
+                "id": "ndh-cyclone-mortality-risks-distribution_0_legend",
+                "title": "Cyclone Hazard Mortality Risks"
+            },
+            "entries": {
+                "colors": [
+                    "e34a33ff",
+                    "fdbb84ff",
+                    "fee8c8ff"
+                ],
+                "type": "classification",
+                "title": "Cyclone Hazard Mortality Risks"
+            }
+        }
+    ],
+    "id": "ndh-cyclone-mortality-risks-distribution"
+}

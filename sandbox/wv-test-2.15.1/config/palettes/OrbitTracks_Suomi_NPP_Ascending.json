@@ -1,0 +1,27 @@
+{
+    "maps": [
+        {
+            "title": "Suomi NPP Orbital Track",
+            "type": "classification",
+            "legend": {
+                "tooltips": [
+                    "Acquisition Time (UTC)"
+                ],
+                "colors": [
+                    "b15928ff"
+                ],
+                "type": "classification",
+                "id": "OrbitTracks_Suomi_NPP_Ascending_0_legend",
+                "title": "Suomi NPP Orbital Track"
+            },
+            "entries": {
+                "colors": [
+                    "b15928ff"
+                ],
+                "type": "classification",
+                "title": "Suomi NPP Orbital Track"
+            }
+        }
+    ],
+    "id": "OrbitTracks_Suomi_NPP_Ascending"
+}

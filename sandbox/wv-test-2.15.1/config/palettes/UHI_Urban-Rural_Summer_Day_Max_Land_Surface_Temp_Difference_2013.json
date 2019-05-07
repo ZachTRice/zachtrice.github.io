@@ -1,0 +1,91 @@
+{
+    "maps": [
+        {
+            "title": "Land Surface Temperature Difference",
+            "type": "continuous",
+            "legend": {
+                "tooltips": [
+                    "< 3 \u00b0C",
+                    "-3 - -2 \u00b0C",
+                    "-2 - -1 \u00b0C",
+                    "-1 - -0.25 \u00b0C",
+                    "-0.25 - 0.25 \u00b0C",
+                    "0.25 - 1 \u00b0C",
+                    "1 - 2 \u00b0C",
+                    "2 - 3 \u00b0C",
+                    ">= 3 \u00b0C"
+                ],
+                "title": "Land Surface Temperature Difference",
+                "colors": [
+                    "022682ff",
+                    "2f55b5ff",
+                    "2699bfff",
+                    "79def2ff",
+                    "c7d79eff",
+                    "f4e492ff",
+                    "f4b070ff",
+                    "d15f32ff",
+                    "aa1005ff"
+                ],
+                "maxLabel": ">= 3 \u00b0C",
+                "minLabel": "< 3 \u00b0C",
+                "type": "continuous",
+                "id": "UHI_Urban-Rural_Summer_Day_Max_Land_Surface_Temp_Difference_2013_0_legend"
+            },
+            "entries": {
+                "values": [
+                    [
+                        2.2250738585072014e-308,
+                        -3.0
+                    ],
+                    [
+                        -3.0,
+                        -2.0
+                    ],
+                    [
+                        -2.0,
+                        -1.0
+                    ],
+                    [
+                        -1.0,
+                        -0.25
+                    ],
+                    [
+                        -0.25,
+                        0.25
+                    ],
+                    [
+                        0.25,
+                        1.0
+                    ],
+                    [
+                        1.0,
+                        2.0
+                    ],
+                    [
+                        2.0,
+                        3.0
+                    ],
+                    [
+                        3.0,
+                        1.7976931348623157e+308
+                    ]
+                ],
+                "colors": [
+                    "022682ff",
+                    "2f55b5ff",
+                    "2699bfff",
+                    "79def2ff",
+                    "c7d79eff",
+                    "f4e492ff",
+                    "f4b070ff",
+                    "d15f32ff",
+                    "aa1005ff"
+                ],
+                "type": "continuous",
+                "title": "Land Surface Temperature Difference"
+            }
+        }
+    ],
+    "id": "UHI_Urban-Rural_Summer_Day_Max_Land_Surface_Temp_Difference_2013"
+}
