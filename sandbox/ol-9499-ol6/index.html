@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="https://cdn.rawgit.com/openlayers/openlayers.github.io/master/en/master/css/ol.css" type="text/css">
+    <style>
+      .map {
+        height: 400px;
+        width: 100%;
+      }
+    </style>
+    <script src="https://cdn.rawgit.com/openlayers/openlayers.github.io/master/en/master/build/ol.js"></script>
+    <title>OpenLayers v6.0.0 example</title>
+  </head>
+  <body>
+    <h2>My Map</h2>
+    <div id="map" class="map"></div>
+    <script type="text/javascript">
+      var urlParameters =
+        '?' +
+        'TIME=2019-04-23T00:00:00Z' +
+        '&layer=MODIS_Aqua_Thermal_Anomalies_All_v6_NRT' +
+        '&tilematrixset=1km' +
+        '&Service=WMTS' +
+        '&Request=GetTile' +
+        '&Version=1.0.0' +
+        '&FORMAT=application%2Fvnd.mapbox-vector-tile' +
+        '&TileMatrix={z}&TileCol={x}&TileRow={y}';
+
+      var vectorSource = new ol.source.VectorTile({
+        url: 'https://uat.gibs.earthdata.nasa.gov/wmts/epsg4326/nrt/wmts.cgi' + urlParameters,
+        format: new ol.format.MVT(),
+        tileGrid: new ol.tilegrid.TileGrid({
+          extent: [-180, -90, 180, 90],
+          origin: [-180, 90],
+          resolutions:  [0.5625, 0.28125, 0.140625, 0.0703125, 0.03515625, 0.017578125, 0.0087890625],
+          tileSize: [512, 512]
+        })
+      });
+
+      var map = new ol.Map({
+        target: 'map',
+        layers: [
+          new ol.layer.Tile({
+            source: new ol.source.OSM()
+          }),
+          new ol.layer.VectorTile({
+            extent: [-180, -90, 180, 90],
+            source: vectorSource
+          })
+        ],
+        view: new ol.View({
+          maxResolution: '0.5625',
+          projection: ol.proj.get('EPSG:4326'),
+          center: [0,0],
+          rotation: 0.0,
+          zoom: 1,
+          maxZoom: 12,
+          enableRotation: true,
+          extent: [-250, -90, 250, 90]
+        })
+      });
+    </script>
+  </body>
+</html>
